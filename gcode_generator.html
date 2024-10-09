@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>G-Code Generator</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/main.css"> <!-- Link to your CSS file -->
     <style>
         /* Add styles for the scrollable output box */
         .gcode-output {
-            width: 500px;
+            width: 100%; /* Full width for responsiveness */
             height: 500px; /* Fixed height for scrolling */
             border: 1px solid #ccc;
             overflow-y: auto; /* Enable vertical scrolling */
@@ -18,71 +18,83 @@
         }
     </style>
 </head>
-<body>
-    <h1>G-Code Generator</h1>
+<body class="is-preload">
 
-    <!-- Navigation Links -->
-    <div class="navigation">
-        <a href="#how-to" class="btn btn-link">How to Use</a>
-        <a href="#video" class="btn btn-link">Video Example</a>
-    </div>
-
-    <!-- Main Container for Canvas and Sections -->
-    <div class="generator-container">
-        <div class="flex-container">
-            <!-- Printer select dropdown and G-code output -->
-            <div class="printer-select">
-                <label for="printerSelect">Select Printer:</label>
-                <select id="printerSelect">
-                    <option value="200,200">Prusa i3 (200x200 mm)</option>
-                    <option value="220,220">Ender 3 (220x220 mm)</option>
-                    <option value="300,300">CR-10 (300x300 mm)</option>
-                    <option value="custom">Custom</option>
-                </select>
-                <div id="customSizeInputs" style="display: none;">
-                    <label for="bedWidth">Bed Width (mm):</label>
-                    <input type="number" id="bedWidth" value="200">
-                    <label for="bedHeight">Bed Height (mm):</label>
-                    <input type="number" id="bedHeight" value="200">
-                </div>
+    <!-- Header -->
+    <div id="header">
+        <div class="top">
+            <div id="logo">
+                <span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
+                <h1 id="title">Ki Talbot</h1>
+                <p>AI and Robotics</p>
             </div>
-
-            <!-- G-Code Input Box -->
-            <div class="canvas-container">
-                <canvas id="plotterCanvas" width="500" height="500" style="border: 1px solid #ccc;"></canvas>
-                <div class="controls">
-                    <button id="generateGcodeBtn" class="btn btn-primary">Generate G-Code</button>
-                    <button id="downloadGcodeBtn" disabled class="btn btn-secondary">Download G-Code</button>
-                    <button id="selectAndCopyBtn" class="btn btn-primary">Select & Copy G-Code</button>
-                    <button id="resetCanvasBtn" class="btn btn-danger">Reset</button>
-                </div>
-            </div>
-
-            <!-- G-Code Output Section -->
-            <div class="gcode-output" id="gcodeOutput"></div>
-
-            <!-- Instructions Section -->
-            <div class="instructions" id="how-to">
-                <h2>How to Use</h2>
-                <p>Welcome to the G-Code Generator! Follow these steps to create your G-code:</p>
-                <ol>
-                    <li>Select your printer model from the dropdown menu, or choose "Custom" to enter specific bed dimensions.</li>
-                    <li>Use your mouse to draw on the canvas. Click and drag to create lines.</li>
-                    <li>Once you're satisfied with your drawing, click the "Generate G-Code" button.</li>
-                    <li>The generated G-code will appear in the output area below.</li>
-                    <li>Click "Download G-Code" to save the file to your computer.</li>
-                    <li>Use the "Reset" button to clear the canvas and start over.</li>
-                </ol>
-            </div>
-
-            <!-- Video Section -->
-            <div class="video-container" id="video">
-                <h2>Video Example</h2>
-                <iframe width="100%" height="500" src="https://www.youtube.com/embed/MrS9XYKof44"
-                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+                    <li><a href="portfolio.html" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+                    <li><a href="about.html" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+                    <li><a href="contact.html" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+                    <li><a href="gcode_generator.html" id="gcode-link"><span class="icon solid fa-cog">G-Code Generator</span></a></li>
+                </ul>
+            </nav>
         </div>
     </div>
+
+    <!-- Main Content -->
+    <div id="main">
+        <section id="gcode-generator" class="five">
+            <div class="container">
+                <header>
+                    <h2>G-Code Generator</h2>
+                </header>
+                <p>Use our G-Code Generator to create custom G-Code for your 3D printer. Draw on the canvas and generate G-Code that you can download and use.</p>
+                
+                <!-- G-Code Input Box -->
+                <div class="canvas-container">
+                    <canvas id="plotterCanvas" width="500" height="500" style="border: 1px solid #ccc;"></canvas>
+                    <div class="controls">
+                        <button id="generateGcodeBtn" class="btn btn-primary">Generate G-Code</button>
+                        <button id="downloadGcodeBtn" disabled class="btn btn-secondary">Download G-Code</button>
+                        <button id="selectAndCopyBtn" class="btn btn-primary">Select & Copy G-Code</button>
+                        <button id="resetCanvasBtn" class="btn btn-danger">Reset</button>
+                    </div>
+                </div>
+
+                <!-- G-Code Output Section -->
+                <div class="gcode-output" id="gcodeOutput"></div>
+
+                <!-- Instructions Section -->
+                <div class="instructions" id="how-to">
+                    <h2>How to Use</h2>
+                    <p>Welcome to the G-Code Generator! Follow these steps to create your G-code:</p>
+                    <ol>
+                        <li>Select your printer model from the dropdown menu, or choose "Custom" to enter specific bed dimensions.</li>
+                        <li>Use your mouse to draw on the canvas. Click and drag to create lines.</li>
+                        <li>Once you're satisfied with your drawing, click the "Generate G-Code" button.</li>
+                        <li>The generated G-code will appear in the output area below.</li>
+                        <li>Click "Download G-Code" to save the file to your computer.</li>
+                        <li>Use the "Reset" button to clear the canvas and start over.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <ul class="copyright">
+            <li>&copy; Ki Talbot. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
 
     <script>
         const canvas = document.getElementById('plotterCanvas');
@@ -124,16 +136,6 @@
         document.getElementById('resetCanvasBtn').addEventListener('click', () => {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             path = []; // Clear the path
-        });
-
-        // Show custom size inputs when "Custom" is selected
-        document.getElementById('printerSelect').addEventListener('change', (e) => {
-            const customSizeInputs = document.getElementById('customSizeInputs');
-            if (e.target.value === 'custom') {
-                customSizeInputs.style.display = 'block';
-            } else {
-                customSizeInputs.style.display = 'none';
-            }
         });
 
         // Generate G-Code
