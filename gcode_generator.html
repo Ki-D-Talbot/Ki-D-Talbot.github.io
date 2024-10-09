@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-Code Generator</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        /* Add styles for the scrollable output box */
+        .gcode-output {
+            width: 500px;
+            height: 500px; /* Fixed height for scrolling */
+            border: 1px solid #ccc;
+            overflow-y: auto; /* Enable vertical scrolling */
+            padding: 10px; /* Add some padding */
+            background-color: #f9f9f9; /* Light background for better visibility */
+            white-space: pre; /* Preserve whitespace for G-Code formatting */
+        }
+    </style>
+</head>
+<body>
+    <h1>G-Code Generator</h1>
+
+    <!-- Navigation Links -->
+    <div class="navigation">
+        <a href="#how-to" class="btn btn-link">How to Use</a>
+        <a href="#video" class="btn btn-link">Video Example</a>
+    </div>
+
+    <!-- Main Container for Canvas and Sections -->
+    <div class="generator-container">
+        <div class="flex-container">
+            <!-- Printer select dropdown and G-code output -->
+            <div class="printer-select">
+                <label for="printerSelect">Select Printer:</label>
+                <select id="printerSelect">
+                    <option value="200,200">Prusa i3 (200x200 mm)</option>
+                    <option value="220,220">Ender 3 (220x220 mm)</option>
+                    <option value="300,300">CR-10 (300x300 mm)</option>
+                    <option value="custom">Custom</option>
+                </select>
+                <div id="customSizeInputs" style="display: none;">
+                    <label for="bedWidth">Bed Width (mm):</label>
+                    <input type="number" id="bedWidth" value="200">
+                    <label for="bedHeight">Bed Height (mm):</label>
+                    <input type="number" id="bedHeight" value="200">
+                </div>
+            </div>
+
+            <!-- G-Code Input Box -->
+            <div class="canvas-container">
+                <canvas id="plotterCanvas" width="500" height="500" style="border: 1px solid #ccc;"></canvas>
+                <div class="controls">
+                    <button id="generateGcodeBtn" class="btn btn-primary">Generate G-Code</button>
+                    <button id="downloadGcodeBtn" disabled class="btn btn-secondary">Download G-Code</button>
+                    <button id="selectAndCopyBtn" class="btn btn-primary">Select & Copy G-Code</button>
+                    <button id="resetCanvasBtn" class="btn btn-danger">Reset</button>
+                </div>
+            </div>
+
+            <!-- G-Code Output Section -->
+            <div class="gcode-output" id="gcodeOutput"></div>
+
+            <!-- Instructions Section -->
+            <div class="instructions" id="how-to">
+                <h2>How to Use</h2>
+                <p>Welcome to the G-Code Generator! Follow these steps to create your G-code:</p>
+                <ol>
+                    <li>Select your printer model from the dropdown menu, or choose "Custom" to enter specific bed dimensions.</li>
+                    <li>Use your mouse to draw on the canvas. Click and drag to create lines.</li>
+                    <li>Once you're satisfied with your drawing, click the "Generate G-Code" button.</li>
+                    <li>The generated G-code will appear in the output area below.</li>
+                    <li>Click "Download G-Code" to save the file to your computer.</li>
+                    <li>Use the "Reset" button to clear the canvas and start over.</li>
+                </ol>
+            </div>
+
+            <!-- Video Section -->
+            <div class="video-container" id="video">
+                <h2>Video Example</h2>
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/MrS9XYKof44"
+                        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('plotterCanvas');
+        const ctx = canvas.getContext('2d');
+        let drawing = false;
+        let path = []; // Array to store the drawing path
+
+        // Start drawing
+        canvas.addEventListener('mousedown', (e) => {
+            drawing = true;
+            ctx.beginPath();
+            ctx.moveTo(e.offsetX, e.offsetY);
+            path.push({ x: e.offsetX, y: e.offsetY, type: 'start' }); // Store the starting point
+        });
+
+        // Draw on the canvas
+        canvas.addEventListener('mousemove', (e) => {
+            if (drawing) {
+                ctx.lineTo(e.offsetX, e.offsetY);
+                ctx.strokeStyle = 'blue'; // Drawing color
+                ctx.stroke();
+                path.push({ x: e.offsetX, y: e.offsetY, type: 'draw' }); // Store the points
+            }
+        });
+
+        // Stop drawing
+        canvas.addEventListener('mouseup', () => {
+            drawing = false;
+            ctx.closePath();
+        });
+
+        // Stop drawing when mouse leaves the canvas
+        canvas.addEventListener('mouseleave', () => {
+            drawing = false;
+            ctx.closePath();
+        });
+
+        // Reset the canvas
+        document.getElementById('resetCanvasBtn').addEventListener('click', () => {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            path = []; // Clear the path
+        });
+
+        // Show custom size inputs when "Custom" is selected
+        document.getElementById('printerSelect').addEventListener('change', (e) => {
+            const customSizeInputs = document.getElementById('customSizeInputs');
+            if (e.target.value === 'custom') {
+                customSizeInputs.style.display = 'block';
+            } else {
+                customSizeInputs.style.display = 'none';
+            }
+        });
+
+        // Generate G-Code
+        document.getElementById('generateGcodeBtn').addEventListener('click', () => {
+            let gcode = generateGCode(path);
+            document.getElementById('gcodeOutput').textContent = gcode; // Display G-code
+            document.getElementById('downloadGcodeBtn').disabled = false; // Enable download button
+        });
+
+        // Function to generate G-code from the path
+        function generateGCode(path) {
+            let gcode = [];
+            gcode.push("G21 ; Set units to millimeters");
+            gcode.push("G90 ; Use absolute positioning");
+            gcode.push("G0 Z5 ; Move the nozzle up"); // Lift the pen
+
+            for (let i = 0; i < path.length; i++) {
+                const point = path[i];
+                if (point.type === 'start' || point.type === 'draw') {
+                    if (i > 0 && path[i - 1].type === 'travel') {
+                        gcode.push("G0 Z5 ; Move the nozzle up"); // Lift the pen before drawing
+                    }
+                    gcode.push(`G1 X${point.x} Y${point.y} F300 ; Move to (${point.x}, ${point.y}) at drawing speed`);
+                }
+                if (i < path.length - 1 && path[i + 1].type === 'draw') {
+                    gcode.push("G0 Z0 ; Move the nozzle down"); // Lower the pen before drawing
+                }
+            }
+
+            gcode.push("G0 Z5 ; Move the nozzle up"); // Lift the pen after drawing
+            gcode.push("M30 ; End of program");
+            return gcode.join("\n");
+        }
+
+        // Download G-Code functionality
+        document.getElementById('downloadGcodeBtn').addEventListener('click', () => {
+            const gcode = document.getElementById('gcodeOutput').textContent;
+            const blob = new Blob([gcode], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'generated_gcode.gcode';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        });
+
+        // Select and Copy G-Code Output
+        document.getElementById('selectAndCopyBtn').addEventListener('click', () => {
+            const gcodeOutput = document.getElementById('gcodeOutput');
+            const range = document.createRange();
+            range.selectNodeContents(gcodeOutput);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+
+            // Copy to clipboard
+            navigator.clipboard.writeText(gcodeOutput.textContent).then(() => {
+                alert('G-Code copied to clipboard!');
+            }).catch(err => {
+                console.error('Failed to copy: ', err);
+            });
+        });
+    </script>
+</body>
+</html>
