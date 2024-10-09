@@ -15,6 +15,20 @@
             padding: 10px; /* Add some padding */
             background-color: #f9f9f9; /* Light background for better visibility */
             white-space: pre; /* Preserve whitespace for G-Code formatting */
+            font-family: 'Courier New', Courier, monospace; /* Monospaced font */
+            font-size: 14px; /* Font size for readability */
+            color: #333; /* Text color */
+            text-align: left; /* Left justify the text */
+        }
+        /* Style for the video embed */
+        .video-container {
+            text-align: center; /* Center the video */
+            margin: 20px 0; /* Add some margin */
+        }
+        iframe {
+            width: 100%; /* Full width for responsiveness */
+            max-width: 800px; /* Maximum width */
+            height: 450px; /* Height of the video */
         }
     </style>
 </head>
@@ -49,6 +63,11 @@
                 </header>
                 <p>Use our G-Code Generator to create custom G-Code for your 3D printer. Draw on the canvas and generate G-Code that you can download and use.</p>
                 
+                <!-- Embed YouTube Video -->
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/MrS9XYKof44" frameborder="0" allowfullscreen></iframe>
+                </div>
+
                 <!-- G-Code Input Box -->
                 <div class="canvas-container">
                     <canvas id="plotterCanvas" width="500" height="500" style="border: 1px solid #ccc;"></canvas>
@@ -61,7 +80,9 @@
                 </div>
 
                 <!-- G-Code Output Section -->
-                <div class="gcode-output" id="gcodeOutput"></div>
+                <div class="gcode-output" id="gcodeOutput">
+                    <pre id="gcodeText"></pre> <!-- Wrap the output in a <pre> tag -->
+                </div>
 
                 <!-- Instructions Section -->
                 <div class="instructions" id="how-to">
@@ -141,7 +162,7 @@
         // Generate G-Code
         document.getElementById('generateGcodeBtn').addEventListener('click', () => {
             let gcode = generateGCode(path);
-            document.getElementById('gcodeOutput').textContent = gcode; // Display G-code
+            document.getElementById('gcodeText').textContent = gcode; // Display G-code
             document.getElementById('downloadGcodeBtn').disabled = false; // Enable download button
         });
 
@@ -172,7 +193,7 @@
 
         // Download G-Code functionality
         document.getElementById('downloadGcodeBtn').addEventListener('click', () => {
-            const gcode = document.getElementById('gcodeOutput').textContent;
+            const gcode = document.getElementById('gcodeText').textContent;
             const blob = new Blob([gcode], { type: 'text/plain' });
             const url = URL.createObjectURL(blob);
             const a = document.createElement('a');
@@ -186,7 +207,7 @@
 
         // Select and Copy G-Code Output
         document.getElementById('selectAndCopyBtn').addEventListener('click', () => {
-            const gcodeOutput = document.getElementById('gcodeOutput');
+            const gcodeOutput = document.getElementById('gcodeText');
             const range = document.createRange();
             range.selectNodeContents(gcodeOutput);
             const selection = window.getSelection();
