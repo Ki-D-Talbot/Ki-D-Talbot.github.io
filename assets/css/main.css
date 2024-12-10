@@ -2631,3 +2631,7 @@ input, select, textarea {
 				}
 
 	}
+
+.inner {
+       padding: 20px; /* Adjust the padding value as needed */
+   }
