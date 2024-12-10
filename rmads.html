@@ -39,7 +39,9 @@
             
             <section>
                 <h2>Project Overview</h2>
-                <p>This project focuses on the intersection of biomimicry and compliant mechanisms. Our design aims to replicate the fluid motion of a manta ray's wings using as few mechanical components as possible. The sculpture will be 3D-printed with minimal post-print assembly, emphasizing print orientation to optimize for compliance and smooth movement.</p>
+                <p>This project focuses on the intersection of biomimicry and compliant mechanisms. 
+                    Our design aims to replicate the fluid motion of a manta ray's wings using as few mechanical components as possible. 
+                    The sculpture will be 3D-printed with minimal post-print assembly, emphasizing print orientation to optimize for compliance and smooth movement.</p>
 
                 <h3>Design Goals</h3>
                 <ul>
@@ -59,18 +61,51 @@
                 </ul>
 
                 <h3>Maintenance and Repair</h3>
-                <p>Given the sculpture's reliance on compliant mechanisms and printed-in-place components, maintenance is expected to be minimal. In the event of failure, the entire sculpture can be reprinted, or specific components could be replaced with new prints. Regular inspection of layer adhesion and flexibility will ensure long-term functionality.</p>
+                <p>Given the sculpture's reliance on compliant mechanisms and printed-in-place components, 
+                    maintenance is expected to be minimal. In the event of failure, 
+                    the entire sculpture can be reprinted, or specific components could be replaced with new prints. 
+                    Through thorough testing, material choice and designing the complient components to minimise stress points
+                     the artifact should be very robust</p>
+
+                <p>After printing a few prototypes it became apparent that it was wasteful to print the mechanism as a whole,
+                    splitting the model up would allow for not only quick printing of replacement parts but also would allow for rapid prototyping,
+                    where the stiffness and flexibility of the complient components coudl be finetuned. </p>
+                </p>
             </section>
 
             <section>
-                <h2>CAD Design and 3D Printing</h2>
-                <p>The design will be created in CAD software, focusing on the precise articulation of the manta ray's wings. Below are some design considerations:</p>
+                <h3>CAD Design</h3>
+                <p>The design will be created in CAD software, focusing on the precise articulation of the manta ray's wings. 
+                    Below are some design considerations:</p>
                 <ul>
                     <li>Wing flexibility modeled after the natural movement of a manta ray.</li>
                     <li>Internal compliant mechanisms to reduce the need for external motors or servos.</li>
                     <li>Printing orientation carefully chosen to align with movement direction for maximum flexibility and durability.</li>
                 </ul>
 
+            <section>
+                <h3>3D Printing</h3>
+                <p>
+                    3D printing could be accurately described as "2.5D printing" because it involves printing multiple thin, 
+                    essentially 2D layers on top of each other. Each layer’s adhesion is often the weakest point in a 
+                    3D-printed object, so choosing the correct print orientation is critical to achieving structural 
+                    integrity.
+
+                    To turn a CAD model into a 3D print, we use slicing software. This software takes
+                    a model, either created in CAD programs or downloaded from online repositories
+                    like Thingiverse or Printables, and converts it into G-code—printer instructions
+                    that guide the printing process. Adjusting the model’s orientation within the
+                    slicer helps determine the final layer line direction, which is key to managing
+                    the part's strength along specific axes.
+
+                    Overhangs are a particular challenge in 3D printing, as unsupported areas require
+                    additional material, known as supports, to prevent sagging or warping during the 
+                    build. Strategically positioning the model in the slicer helps to minimize support 
+                    material, but there is often a compromise between using fewer supports and 
+                    maximizing strength. Balancing these considerations is essential for efficient, 
+                    robust prints.
+                </p>
+            </section>
                 <h3>3D Model Preview</h3>
                 <p>Click <a href="3d_files.html">here</a> to view the 3D model of the manta ray sculpture in our 3D viewer.</p>
             </section>
