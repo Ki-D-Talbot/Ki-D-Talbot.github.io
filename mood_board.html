@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Mood Board - Ki Talbot</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        .mood-board {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+        .mood-board-item {
+            flex: 1 1 calc(33.333% - 40px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            background: #fff;
+        }
+        .mood-board-item img {
+            width: 100%;
+            height: auto;
+        }
+        .mood-board-item p {
+            padding: 10px;
+            text-align: center;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Header -->
+    <div id="header">
+        <div class="top">
+            <div id="logo">
+                <span class="image avatar48"><img src="images/avatar.jpg" alt="Profile picture of Ki Talbot" /></span>
+                <h1 id="title">Ki Talbot</h1>
+                <p>AI and Robotics</p>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+                    <li><a href="portfolio.html" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+                    <li><a href="about.html" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+                    <li><a href="contact.html" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+                    <li><a href="gcode_generator.html" id="gcode-link"><span class="icon solid fa-cog">G-Code Generator</span></a></li>
+                    <li><a href="3d_files.html" id="3d-files-link"><span class="icon solid fa-cube">3D Model Viewer</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main">
+        <div class="inner">
+            <header>
+                <h1>Mood Board</h1>
+                <p>This mood board represents the visual style and aesthetic for the project.</p>
+            </header>
+            
+            <section class="mood-board">
+                <div class="mood-board-item">
+                    <img src="images/mood1.jpg" alt="Mood Image 1">
+                    <p>Inspiration 1</p>
+                </div>
+                <div class="mood-board-item">
+                    <img src="images/mood2.jpg" alt="Mood Image 2">
+                    <p>Inspiration 2</p>
+                </div>
+                <div class="mood-board-item">
+                    <img src="images/mood3.jpg" alt="Mood Image 3">
+                    <p>Inspiration 3</p>
+                </div>
+                <!-- Add more mood board items as needed -->
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p>&copy; Ki Talbot. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
