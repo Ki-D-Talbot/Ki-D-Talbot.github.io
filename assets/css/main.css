@@ -2033,35 +2033,19 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-moz-justify-content: space-between;
-		-webkit-justify-content: space-between;
-		-ms-justify-content: space-between;
-		justify-content: space-between;
-		background: #222629 url("images/overlay.png");
-		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
-		color: #fff;
-		height: 100%;
-		left: 0;
-		overflow-y: auto;
 		position: fixed;
-		text-align: right;
+		left: 0;
 		top: 0;
-		width: 375px;
+		width: 250px;
+		height: 100%;
+		background: #333;
+		color: #fff;
+		overflow-y: auto;
 	}
 
 		#header .top {
-			-moz-flex-grow: 1;
-			-webkit-flex-grow: 1;
-			-ms-flex-grow: 1;
-			flex-grow: 1;
+			padding: 20px;
+			text-align: center;
 		}
 
 		#header .bottom {
@@ -2098,6 +2082,7 @@ input, select, textarea {
 		margin: 1.75em 1.5em 1.5em 1.5em;
 		min-height: 48px;
 		cursor: default;
+		margin-bottom: 20px;
 	}
 
 		#logo h1 {
@@ -2127,16 +2112,18 @@ input, select, textarea {
 		list-style: none;
 		padding-left: 0;
 		margin-bottom: 0;
+		margin-top: 20px;
 	}
 
 		#nav ul li {
 			padding-left: 0;
+			margin: 0 0 10px 0;
 		}
 
 			#nav ul li a {
 				display: block;
-				padding: 0.5em 1.5em 0.5em 1.5em;
-				color: rgba(255, 255, 255, 0.5);
+				padding: 10px;
+				color: #fff;
 				text-decoration: none;
 				outline: 0;
 				border: 0;
@@ -2170,6 +2157,11 @@ input, select, textarea {
 					#nav ul li a.active span:before {
 						color: #e27689;
 					}
+
+				#nav ul li a:hover,
+				#nav ul li a.active {
+					background: #444;
+				}
 
 /* Footer */
 
@@ -2630,6 +2622,33 @@ input, select, textarea {
 				}
 
 	}
+
+/* Mood Board */
+.mood-board {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.mood-board-item {
+    flex: 1 1 calc(33.333% - 40px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.mood-board-item img {
+    width: 100%;
+    height: auto;
+}
+
+.mood-board-item p {
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+}
 
 .inner {
        padding: 20px; /* Adjust the padding value as needed */
