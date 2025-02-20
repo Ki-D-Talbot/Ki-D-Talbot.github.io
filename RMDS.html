@@ -2,46 +2,121 @@
 <html lang="en">
 
 <head>
-    <title>Robotic Modeling and Drone Skin - Ki Talbot</title>
+    <title>Robotic Modelling and Drone Skin - Ki Talbot</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/main.js"></script>
-
 </head>
 
 <body class="is-preload">
 
-    <!-- Header -->
     <div id="nav-placeholder"></div>
 
-    <!-- Main Content -->
     <div id="main">
         <div class="inner">
             <header>
-                <h1>This page documents my progress through the Robotic Modeling and Drone Skin module</h1>
-                <p>It describes my design decisions and challenge mitigation strategies.</p>
+                <h1>Robotic Modelling and Drone Skin Project</h1>
+                <p>A biomimetic sculpture of a manta ray, designed to 'swim' with minimal hardware and 3D-printed
+                    compliant
+                    mechanisms.</p>
             </header>
-            
+
             <section>
-                <h2>Design Goals</h2>
+                <h2>Project Overview</h2>
+                <p>This project focuses on the intersection of biomimicry and compliant mechanisms.
+                    Our design aims to replicate the fluid motion of a manta ray's wings using as few mechanical
+                    components as
+                    possible.
+                    The sculpture will be 3D-printed with minimal post-print assembly, emphasizing print orientation to
+                    optimize
+                    for compliance and smooth movement.</p>
+
+                <h3>Design Goals</h3>
                 <ul>
-                    <li>Use as little additional hardware as possible</li>
-                    <li>Require minimal post-processing</li>
-                    <li>Avoid using exotic materials</li>
-                    <li>Explore compliance wherever possible</li>
+                    <li>Use of biomimicry to aproximate movement similar to manta rays.</li>
+                    <li>Utilization of compliant mechanisms to reduce the number of mechanical parts.</li>
+                    <li>Minimal hardware and assembly required.</li>
+                    <li>Focus on 3D printing with moving parts printed in place.</li>
+                    <li>Careful consideration of print orientation to align layer lines for optimal flexibility and
+                        durability.</li>
                 </ul>
+
+                <h3>Manufacturing Considerations</h3>
+                <p>The sculpture is designed for ease of manufacturing using a standard 3D printer. Key considerations
+                    include:</p>
+                <ul>
+                    <li>Print orientation and layer adhesion to ensure structural integrity and desired flexibility.
+                    </li>
+                    <li>Material selection to balance rigidity and compliance for the wing movement.</li>
+                    <li>Reducing post-processing and assembly time by printing moving parts in place.</li>
+                </ul>
+
+                <h3>Maintenance and Repair</h3>
+                <p>Given the sculpture's reliance on compliant mechanisms and printed-in-place components,
+                    maintenance is expected to be minimal. In the event of failure,
+                    the entire sculpture can be reprinted, or specific components could be replaced with new prints.
+                    Through thorough testing, material choice and designing the complient components to minimise stress
+                    points the
+                    artifact should be very robust</p>
+
+                <p>After printing a few prototypes it became apparent that it was wasteful to print the mechanism as a
+                    whole,
+                    splitting the model up would allow for not only quick printing of replacement parts but also would
+                    allow for
+                    rapid prototyping,
+                    where the stiffness and flexibility of the complient components coudl be finetuned. </p>
+
+            </section>
+
+            <section>
+                <h3>CAD Design</h3>
+                <p>The design will be created in CAD software, focusing on the precise articulation of the manta ray's
+                    wings.
+                    Below are some design considerations:</p>
+                <ul>
+                    <li>Wing flexibility modeled after the natural movement of a manta ray.</li>
+                    <li>Internal compliant mechanisms to reduce the need for external motors or servos.</li>
+                    <li>Printing orientation carefully chosen to align with movement direction for maximum flexibility
+                        and
+                        durability.</li>
+                </ul>
+
+                <section>
+                    <h3>3D Printing</h3>
+                    <p>
+                        3D printing could be accurately described as "2.5D printing" because it involves printing
+                        multiple thin,
+                        essentially 2D layers on top of each other. Each layer’s adhesion is often the weakest point in
+                        a
+                        3D-printed object, so choosing the correct print orientation is critical to achieving structural
+                        integrity.
+
+                        To turn a CAD model into a 3D print, we use slicing software. This software takes
+                        a model, either created in CAD programs or downloaded from online repositories
+                        like Thingiverse or Printables, and converts it into G-code—printer instructions
+                        that guide the printing process. Adjusting the model’s orientation within the
+                        slicer helps determine the final layer line direction, which is key to managing
+                        the part's strength along specific axes.
+
+                        Overhangs are a particular challenge in 3D printing, as unsupported areas require
+                        additional material, known as supports, to prevent sagging or warping during the
+                        build. Strategically positioning the model in the slicer helps to minimize support
+                        material, but there is often a compromise between using fewer supports and
+                        maximizing strength. Balancing these considerations is essential for efficient,
+                        robust prints.
+                    </p>
+                </section>
+                <h3>3D Model Preview</h3>
+                <p>Click <a href="mood_board.html">here</a> to view the 3D model of the manta ray sculpture in our 3D
+                    viewer.</p>
             </section>
         </div>
     </div>
 
-    <!-- Footer -->
     <footer id="footer">
         <p>&copy; Ki Talbot. All rights reserved.</p>
     </footer>
 
-    <!-- Scripts -->
     <script src="assets/js/main.js"></script>
 </body>
 
