@@ -42,4 +42,31 @@
       margin-left: 2rem;
       max-width: 100%;
     }
+
+      /* Fixed sidebar that doesn't disappear */
+.sidebar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 18rem;
+  text-align: left;
+  z-index: 10;
+}
+
+/* Content positioning to work with fixed sidebar */
+.content {
+  margin-left: 20rem;
+}
+
+/* Mobile adjustments */
+@media (max-width: 48em) {
+  .sidebar {
+    width: 100%;
+    position: relative !important;
+  }
+  .content {
+    margin-left: 2rem;
+  }
+}
   }
