@@ -31,3 +31,11 @@ nav ul li {
 nav.open {
     background: #ddd;
 }
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 18rem;
+    z-index: 1000; /* Make sure z-index is high enough */
+  }
