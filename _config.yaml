@@ -1,0 +1,15 @@
+# Site settings
+title: 3D Design Portfolio
+description: Robotic Modelling and Drone Skin Design
+baseurl: ""
+url: "https://ki-d-talbot.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Collections for your 3D models
+collections:
+  models:
+    output: true
+    permalink: /models/:path/

@@ -1,0 +1,13 @@
+---
+layout: page
+---
+<div class="model-info">
+	{{ content }}
+</div>
+
+{% if page.stl_file %}
+<div class="stl-viewer">
+    <h2>3D Model Viewer</h2>
+    <script src="https://embed.github.com/view/3d/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/assets/stl/{{ page.stl_file }}?height=500&width=700"></script>
+</div>
+{% endif %}

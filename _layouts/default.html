@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+		<noscript><link rel="stylesheet" href="{{ '/assets/css/noscript.css' | relative_url }}" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="{{ site.baseurl }}/" class="title">{{ site.title }}</a>
+				<nav>
+					<ul>
+						<li><a href="{{ site.baseurl }}/">Home</a></li>
+						<li><a href="{{ site.baseurl }}/models/">Models</a></li>
+						<li><a href="{{ site.baseurl }}/about/">About</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+				{{ content }}
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; {{ site.title }}. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="{{ '/assets/js/jquery.min.js' | relative_url }}"></script>
+			<script src="{{ '/assets/js/jquery.scrollex.min.js' | relative_url }}"></script>
+			<script src="{{ '/assets/js/jquery.scrolly.min.js' | relative_url }}"></script>
+			<script src="{{ '/assets/js/browser.min.js' | relative_url }}"></script>
+			<script src="{{ '/assets/js/breakpoints.min.js' | relative_url }}"></script>
+			<script src="{{ '/assets/js/util.js' | relative_url }}"></script>
+			<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+	</body>
+</html>
