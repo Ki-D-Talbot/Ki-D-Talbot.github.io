@@ -32,7 +32,8 @@
   max-width: 38rem;
 }
 
-/* Mobile responsiveness */
+/* Comment out the default mobile responsiveness */
+/*
 @media (max-width: 48em) {
   .sidebar {
     width: 100%;
@@ -43,9 +44,9 @@
     max-width: 100%;
   }
 }
+*/
 
-/* If you want a persistent sidebar regardless of screen size, use this instead: */
-/* 
+/* Use persistent sidebar instead */
 @media (max-width: 48em) {
   .sidebar {
     position: fixed !important;
@@ -55,4 +56,3 @@
     margin-left: 20rem;
   }
 }
-*/

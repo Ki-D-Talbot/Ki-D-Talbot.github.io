@@ -2,7 +2,6 @@
 layout: page
 title: Robotic Modelling and Drone Skin Project
 permalink: /project/
-sidebar_link: true
 ---
 
 # Robotic Modelling and Drone Skin Project
