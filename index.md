@@ -12,7 +12,7 @@ title: Home
                 <li><a href="#one">Featured Models</a></li>
                 <li><a href="#two">Project Overview</a></li>
                 <li><a href="/biomimicry">Biomimicry</a></li>
-                <li><a href="/compliance">Biomimicry</a></li>
+                <li><a href="/compliance">Compliance</a></li>
                 <li><a href="#three">Get in touch</a></li>
             </ul>
         </nav>
