@@ -3,7 +3,6 @@ layout: default
 title: Home
 ---
 
-<!DOCTYPE HTML>
 <!--
 	Prologue by HTML5 UP
 	html5up.net | @ajlkn
@@ -197,5 +196,3 @@ title: Home
     		<script src="assets/js/main.js"></script>
 
     </body>
-
-</html>
