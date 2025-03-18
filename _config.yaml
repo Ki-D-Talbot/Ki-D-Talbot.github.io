@@ -1,12 +1,32 @@
 # Site settings
-title: 3D Design Portfolio
-description: Robotic Modelling and Drone Skin Design
+title: Ki's Website
+description: Personal portfolio and project site
 baseurl: ""
-url: "https://ki-d-talbot.github.io"
+url: "https://Ki-D-Talbot.github.io"
+
+# Author details
+author:
+  name: Ki
+  email: your-email@example.com
+
+# Social media links
+social:
+  twitter: https://twitter.com/yourusername
+  facebook: https://facebook.com/yourusername
+  github: https://github.com/Ki-D-Talbot
+  email: your-email@example.com
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+
+# Theme settings
+tagline: Hyperspace Engineer
 
 # Collections for your 3D models
 collections:
