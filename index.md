@@ -65,8 +65,8 @@ title: Home
     					<div class="container">
 
     						<header>
-    							<h2 class="alt">Hi! I'm <strong>Ki</strong>, a passionate hyperspace engineer</h2>
-    							<p>Welcome to my portfolio website</p>
+    							<h2 class="alt">Hi! I'm <strong>Ki</strong>, This is Robotic Modeling and Drone Skin</h2>
+    							<p>Welcome to my project</p>
     						</header>
 
     						<footer>
