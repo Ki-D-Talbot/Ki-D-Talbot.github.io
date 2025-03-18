@@ -26,7 +26,7 @@ title: Home
 					<!-- Logo -->
 						<div id="logo">
 							<span class="image avatar48"><img src="images/avatar.jpg" alt="" /></span>
-							<h1 id="title">Jane Doe</h1>
+							<h1 id="title">Ki</h1>
 							<p>Hyperspace Engineer</p>
 						</div>
 
