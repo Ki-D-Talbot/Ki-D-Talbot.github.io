@@ -30,9 +30,9 @@
                         <nav id="nav">
                             <ul>
                                 <li><a href="{{ site.baseurl }}/#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-                                <li><a href="{{ site.baseurl }}/#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+                                <!--<li><a href="{{ site.baseurl }}/#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
                                 <li><a href="{{ site.baseurl }}/#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-                                <li><a href="{{ site.baseurl }}/#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+                                <li><a href="{{ site.baseurl }}/#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li> -->
                                 {% for page in site.pages %}
                                     {% if page.title and page.layout == 'page' %}
                                         <li><a href="{{ site.baseurl }}{{ page.url }}" id="{{ page.title | slugify }}-link"><span class="icon solid fa-file">{{ page.title }}</span></a></li>
