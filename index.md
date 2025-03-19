@@ -22,7 +22,7 @@ title: Home
     <header>
       <h2>Mood Board</h2>
     </header>
-    <p>Here are some of my latest projects and works.</p>
+    <p>Get a feel for the vibes.</p>
     <div class="row">
       <div class="col-4 col-12-mobile">
         <article class="item">
