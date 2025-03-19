@@ -4,7 +4,7 @@ title: Compliant Mechanisms
 permalink: /compliance/
 ---
 
-# Compliant Mechanisms for Additive Manufacturing
+## Compliant Mechanisms for Additive Manufacturing
 
 ## Overview
 Compliant mechanisms use flexible elements to transfer or amplify motion and forces without traditional rigid joints. Additive Manufacturing (AM), or 3D printing, uniquely enhances compliant mechanism designs by enabling complex geometries that are otherwise difficult or impossible to produce conventionally.
