@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About This Project
+permalink: /about2/
 ---
 
 ## About the Robotic Modelling and Drone Skin Design Module

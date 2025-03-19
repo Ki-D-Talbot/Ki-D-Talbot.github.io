@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 3D Models Collection
+permalink: /models/
 ---
 
 ## My 3D Models
