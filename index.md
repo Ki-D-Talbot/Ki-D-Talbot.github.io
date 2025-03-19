@@ -20,7 +20,7 @@ title: Home
 <section id="portfolio" class="two">
   <div class="container">
     <header>
-      <h2>Portfolio</h2>
+      <h2>Mood Board</h2>
     </header>
     <p>Here are some of my latest projects and works.</p>
     <div class="row">
