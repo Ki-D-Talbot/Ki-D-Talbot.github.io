@@ -4,7 +4,7 @@ title: Biomimicry
 permalink: /biomimicry/
 ---
 
-# Biomimicry
+## Biomimicry
 
 Biomimicry, also known as biomimetics, is an innovative approach that seeks sustainable solutions by emulating nature's time-tested patterns and strategies. This methodology has been applied across various fields, leading to advancements in materials science, robotics, architecture, and more.
 
