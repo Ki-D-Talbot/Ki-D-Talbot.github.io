@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Biomimicry
-permalink: /biomimicry/
 ---
 
 # Biomimicry
@@ -14,7 +13,7 @@ Biomimicry, also known as biomimetics, is an innovative approach that seeks sust
 
 - **Robotics**: Bio-inspired robotics has led to the creation of robots that emulate animal locomotion. Snake-like robots, for example, have been designed to navigate complex terrains by mimicking the movement patterns of real snakes (Hirose et al., 1993).
 
-- **Architecture**: Architects have drawn inspiration from termite mounds to design energy-efficient buildings. The Eastgate Centre in Harare, Zimbabwe, utilizes passive cooling systems modeled after the natural ventilation found in termite mounds, significantly reducing energy consumption (Brooks, 2021).
+- **Architecture**: Architects have drawn inspiration from termite mounds to design energy-efficient buildings. The Eastgate Centre in Harare, Zimbabwe, utilizes passive cooling systems modelled after the natural ventilation found in termite mounds, significantly reducing energy consumption (Brooks, 2021).
 
 ## Conclusion
 
