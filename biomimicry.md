@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: Biomimicry
+permalink: /biomimicry/
 ---
 
 # Biomimicry
@@ -21,8 +22,8 @@ Biomimicry offers a pathway to sustainable innovation by learning from and emula
 
 ## References
 
-- Brooks, M. (2021) 'Biomimicry in Architecture - review', *Designing Buildings*. Available at: [https://www.designingbuildings.co.uk/wiki/Biomimicry_in_architecture](https://www.designingbuildings.co.uk/wiki/Biomimicry_in_architecture) (Accessed: 11 March 2025).
+- Brooks, M. (2021) 'Biomimicry in Architecture - review', _Designing Buildings_. Available at: [https://www.designingbuildings.co.uk/wiki/Biomimicry_in_architecture](https://www.designingbuildings.co.uk/wiki/Biomimicry_in_architecture) (Accessed: 11 March 2025).
 
-- Hirose, S., Cave, P. and Goulden, C. (1993) *Biologically inspired robots: snake-like locomotors and manipulators*. Oxford: Oxford University Press.
+- Hirose, S., Cave, P. and Goulden, C. (1993) _Biologically inspired robots: snake-like locomotors and manipulators_. Oxford: Oxford University Press.
 
-- Yuan, Y.C., Yin, T., Rong, M.Z. and Zhang, M.Q. (2008) 'Self healing in polymers and polymer composites. Concepts, realization and outlook: A review', *Express Polymer Letters*, 2(4), pp. 238–250.
+- Yuan, Y.C., Yin, T., Rong, M.Z. and Zhang, M.Q. (2008) 'Self healing in polymers and polymer composites. Concepts, realization and outlook: A review', _Express Polymer Letters_, 2(4), pp. 238–250.
