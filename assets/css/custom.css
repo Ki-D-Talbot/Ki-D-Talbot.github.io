@@ -1,6 +1,42 @@
 /* Custom styles */
 #main {
-  padding: 2em;  /* Adjust value as needed */
+  /* Add padding while preserving background */
+  padding: 0;
+}
+
+#main > section {
+  /* Increase internal padding instead of outer container */
+  padding: 4em 2em;
+}
+
+/* Style for page layout */
+.layout-page #main {
+  background-color: #f5fafa;
+}
+
+.layout-page #main > .container {
+  padding: 2em;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 2em auto;
+  max-width: 1000px;
+  border-radius: 5px;
+}
+
+/* Audio player styling */
+audio {
+  margin: 1em 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Custom audio player container */
+.audio-container {
+  margin: 1em 0;
+  padding: 1em;
+  background: rgba(255,255,255,0.9);
+  border-radius: 5px;
+  display: inline-block;
 }
 
 /* If you need specific padding for certain page types */
