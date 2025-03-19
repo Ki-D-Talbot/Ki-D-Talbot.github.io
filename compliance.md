@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: pages
 title: Compliant Mechanisms
 permalink: /compliance/
 ---
