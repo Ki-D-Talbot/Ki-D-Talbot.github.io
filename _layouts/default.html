@@ -30,13 +30,19 @@
                         <nav id="nav">
                             <ul>
 								<li><a href="{{ site.baseurl }}/" id="home-link"><span class="icon solid fa-home">Home</span></a></li>
-                                <!-- <li><a href="{{ site.baseurl }}/#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-                                <li><a href="{{ site.baseurl }}/#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-                                <li><a href="{{ site.baseurl }}/#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-                                <li><a href="{{ site.baseurl }}/#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li> -->
+                                <li><a href="{{ site.baseurl }}/portfolio/" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
+                                <li><a href="{{ site.baseurl }}/about/" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+                                <li><a href="{{ site.baseurl }}/contact/" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+                                
                                 {% for page in site.pages %}
-                                    {% if page.title and page.layout == 'page' %}
-                                        <li><a href="{{ site.baseurl }}{{ page.url }}" id="{{ page.title | slugify }}-link"><span class="icon solid fa-file">{{ page.title }}</span></a></li>
+                                    {% if page.title and page.layout == 'page' and page.title != 'About Me' and page.title != 'Portfolio' and page.title != 'Contact' %}
+                                        {% if page.title contains 'Biomimicry' %}
+                                            <li><a href="{{ site.baseurl }}{{ page.url }}" id="{{ page.title | slugify }}-link"><span class="icon solid fa-leaf">{{ page.title }}</span></a></li>
+                                        {% elsif page.title contains 'Compliant' %}
+                                            <li><a href="{{ site.baseurl }}{{ page.url }}" id="{{ page.title | slugify }}-link"><span class="icon solid fa-cogs">{{ page.title }}</span></a></li>
+                                        {% else %}
+                                            <li><a href="{{ site.baseurl }}{{ page.url }}" id="{{ page.title | slugify }}-link"><span class="icon solid fa-file">{{ page.title }}</span></a></li>
+                                        {% endif %}
                                     {% endif %}
                                 {% endfor %}
                             </ul>
