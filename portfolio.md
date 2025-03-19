@@ -60,10 +60,4 @@ Get a feel for the vibes.
     <h4>Model 1 Name</h4>
   </div>
   
-  <div class="col-6 col-12-mobile">
-    <div class="stl-viewer-container">
-      <script src="https://embed.github.com/view/3d/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/models/model2.stl?height=300&width=100%"></script>
-    </div>
-    <h4>Model 2 Name</h4>
-  </div>
-</div>
+<div class="sketchfab-embed-wrapper"> <iframe title="MANTA" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/cdc4752c492c43559caa4cfb528000d8/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/manta-cdc4752c492c43559caa4cfb528000d8?utm_medium=embed&utm_campaign=share-popup&utm_content=cdc4752c492c43559caa4cfb528000d8" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> MANTA </a> by <a href="https://sketchfab.com/misaooo?utm_medium=embed&utm_campaign=share-popup&utm_content=cdc4752c492c43559caa4cfb528000d8" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> misaooo </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=cdc4752c492c43559caa4cfb528000d8" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
