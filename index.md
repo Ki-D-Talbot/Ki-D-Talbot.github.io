@@ -65,7 +65,7 @@ title: Home
       <h2>About Me</h2>
     </header>
     <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
-    <p>I'm a hyperspace engineer with expertise in various technologies. I'm passionate about creating innovative solutions.</p>
+    <p>I'm not a hyperspace engineer with expertise in various technologies. I'm passionate about creating innovative solutions.</p>
   </div>
 </section>
 

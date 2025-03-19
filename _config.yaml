@@ -7,14 +7,14 @@ url: "https://Ki-D-Talbot.github.io"
 # Author details
 author:
   name: Ki Talbot
-  email: your-email@example.com
+  email: kidtalbot@gmail.com
 
 # Social media links
 social:
   twitter: https://twitter.com/yourusername
   facebook: https://facebook.com/yourusername
   github: https://github.com/Ki-D-Talbot
-  email: your-email@example.com
+  email: kidtalbot@gmail.com
 
 # Build settings
 markdown: kramdown
@@ -26,7 +26,7 @@ exclude:
   - .git
 
 # Theme settings
-tagline: Hyperspace Engineer
+tagline: Not a Hyperspace Engineer
 
 # Collections for your 3D models
 collections:
