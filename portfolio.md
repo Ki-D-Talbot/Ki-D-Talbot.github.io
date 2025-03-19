@@ -44,7 +44,7 @@ Get a feel for the vibes.
   <div class="col-12">
     <h3>3D Model Exploration</h3>
     <div class="stl-viewer-container">
-      <script src="https://embed.github.com/view/3d/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/models/your-stl-file.stl?height=400&width=100%"></script>
+      <script src="https://embed.github.com/view/3d/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/models/models/manta.stl?height=400&width=100%"></script>
     </div>
     <p>Interact with the 3D model above by clicking and dragging to rotate.</p>
   </div>
