@@ -81,9 +81,12 @@
             </div>
 
         <!-- Background Music -->
-            <audio autoplay loop>
-                <source src="{{ site.baseurl }}/audio/relaxing-ocean-waves-high-quality-recorded-177004.mp3" type="audio/mpeg">
-            </audio>
+            <div class="audio-controls">
+                <audio id="background-audio" loop controls>
+                    <source src="{{ site.baseurl }}/audio/relaxing-ocean-waves-high-quality-recorded-177004.mp3" type="audio/mpeg">
+                </audio>
+                <button onclick="toggleAudio()" id="audio-toggle">Pause</button>
+            </div>
 
         <!-- Scripts -->
             <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
@@ -93,6 +96,35 @@
             <script src="{{ site.baseurl }}/assets/js/breakpoints.min.js"></script>
             <script src="{{ site.baseurl }}/assets/js/util.js"></script>
             <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+            <script>
+                // Initialize audio state
+                let audio = document.getElementById('background-audio');
+                let toggleButton = document.getElementById('audio-toggle');
+                
+                // Set initial state based on user preference
+                window.addEventListener('DOMContentLoaded', function() {
+                    let audioState = localStorage.getItem('audioState') || 'paused';
+                    if (audioState === 'playing') {
+                    audio.play();
+                    toggleButton.textContent = 'Pause';
+                    } else {
+                    audio.pause();
+                    toggleButton.textContent = 'Play';
+                    }
+                });
+                
+                function toggleAudio() {
+                    if (audio.paused) {
+                    audio.play();
+                    toggleButton.textContent = 'Pause';
+                    localStorage.setItem('audioState', 'playing');
+                    } else {
+                    audio.pause();
+                    toggleButton.textContent = 'Play';
+                    localStorage.setItem('audioState', 'paused');
+                    }
+                }
+            </script>
 
     </body>
 </html>
