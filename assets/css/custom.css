@@ -1,0 +1,9 @@
+/* Custom styles */
+#main {
+  padding: 2em;  /* Adjust value as needed */
+}
+
+/* If you need specific padding for certain page types */
+.page-content {
+  padding: 0 2em;
+}
