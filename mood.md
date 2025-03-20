@@ -11,7 +11,7 @@ Get a feel for the vibes.
 <div class="row">
   <div class="col-4 col-12-mobile">
     <article class="item">
-      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images.jpeg" alt="" /></a>
+      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/images.jpeg" alt="" /></a>
       <header><h3>Project 1</h3></header>
     </article>
     <article class="item">
