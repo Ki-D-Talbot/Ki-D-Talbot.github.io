@@ -11,7 +11,7 @@ title: Home
       <p>Welcome to my project</p>
     </header>
     <footer>
-      <a href="{{ site.baseurl }}/portfolio/" class="button">See My Work</a>
+      <a href="{{ site.baseurl }}/mood/" class="button">Check the Vibes!</a>
     </footer>
   </div>
 </section>
