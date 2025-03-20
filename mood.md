@@ -112,5 +112,5 @@ Get a feel for the vibes.
       allowfullscreen>
     </iframe>
   </div>
-  <p>Description of this video and why it's relevant to your project.</p>
+  <p>Cool Manta Ray.</p>
 </div>
