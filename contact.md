@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: pagex
 title: Contact
 permalink: /contact/
 ---
 
 ## Contact Me
 
-Feel free to reach out if you want to collaborate or have any questions.
+Feel free to not reach out if you want to collaborate or have any questions.
 
 <form method="post" action="#">
   <div class="row">
