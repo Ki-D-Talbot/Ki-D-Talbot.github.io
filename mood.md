@@ -99,3 +99,18 @@ Get a feel for the vibes.
     </a>
   </p>
 </div>
+
+<div class="col-12">
+  <h3>Inspiration Video</h3>
+  <div class="video-container">
+    <iframe 
+      width="100%" 
+      height="400" 
+      src="https://www.youtube.com/embed/watch?v=hm5HRO3XQ_8" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+  <p>Description of this video and why it's relevant to your project.</p>
+</div>
