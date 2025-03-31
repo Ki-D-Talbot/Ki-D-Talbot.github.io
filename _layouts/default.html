@@ -15,6 +15,24 @@
     </head>
     <body class="is-preload">
 
+        <div id="mobile-header">
+          <div class="site-title">Ki</div>
+          <div class="mobile-menu-toggle">Menu</div>
+          <div class="mobile-dropdown">
+            <ul>
+              <li><a href="{{ site.baseurl }}/">Home</a></li>
+              <li><a href="{{ site.baseurl }}/mood/">Mood Board</a></li>
+              <li><a href="{{ site.baseurl }}/about/">About Me</a></li>
+              <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+              {% for page in site.pages %}
+                {% if page.title and page.layout == 'page' and page.title != 'About Me' and page.title != 'Portfolio' and page.title != 'Contact' %}
+                  <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+
         <!-- Header -->
             <div id="header">
 
@@ -76,7 +94,7 @@
 
                 <!-- Copyright -->
                     <ul class="copyright">
-                        <li>&copy; v1.1 All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        <li>&copy; v1.3 All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
                     </ul>
 
             </div>

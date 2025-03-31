@@ -40,8 +40,88 @@
   background: rgba(0,0,0,0.1);
 }
 
+/* Mobile Header - only visible on small screens */
+#mobile-header {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  z-index: 10000;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  padding: 10px;
+  height: 50px;
+}
+
+#mobile-header .site-title {
+  float: left;
+  font-size: 1.5em;
+  line-height: 30px;
+}
+
+#mobile-header .mobile-menu-toggle {
+  float: right;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 4px;
+  line-height: 20px;
+}
+
+#mobile-header .mobile-dropdown {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  background: #444;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+#mobile-header .mobile-dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#mobile-header .mobile-dropdown li {
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+#mobile-header .mobile-dropdown a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+#mobile-header .mobile-dropdown a:hover {
+  background: rgba(255,255,255,0.1);
+}
+
 /* Mobile Navigation Improvements */
 @media screen and (max-width: 960px) {
+  /* Show mobile header */
+  #mobile-header {
+    display: block;
+  }
+  
+  /* Add padding to main to account for fixed header */
+  #main {
+    padding-top: 60px !important;
+    transition: transform 0.5s ease !important;
+  }
+  
+  /* Hide the original sidebar navigation */
+  #header {
+    display: none;
+    width: 275px !important;
+    transform: translateX(-275px) !important;
+    transition: transform 0.5s ease !important;
+  }
+  
   /* Make toggle button more visible and accessible */
   #headerToggle {
     display: block !important;
