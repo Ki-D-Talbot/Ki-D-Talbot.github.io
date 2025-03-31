@@ -102,7 +102,7 @@
 		// Toggle.
 			$(
 				'<div id="headerToggle">' +
-					'<a href="#header" class="toggle"></a>' +
+					'<a href="#header" class="toggle">Menu</a>' +
 				'</div>'
 			)
 				.appendTo($body);
@@ -119,5 +119,18 @@
 					target: $body,
 					visibleClass: 'header-visible'
 				});
+
+		// Ensure toggle button works with touch events
+		$('#headerToggle').on('touchstart click', function(e) {
+			e.preventDefault();
+			$body.toggleClass('header-visible');
+			});
+
+		// Close mobile menu when a nav item is clicked
+		$('#nav a').on('click', function() {
+			if (window.innerWidth < 960) {
+				$('body').removeClass('header-visible');
+			}
+		});
 
 })(jQuery);
