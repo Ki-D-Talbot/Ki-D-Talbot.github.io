@@ -123,8 +123,10 @@
 		// Ensure toggle button works with touch events
 		$('#headerToggle').on('touchstart click', function(e) {
 			e.preventDefault();
+			e.stopPropagation();
 			$body.toggleClass('header-visible');
-			});
+			return false;
+		});
 
 		// Close mobile menu when a nav item is clicked
 		$('#nav a').on('click', function() {
