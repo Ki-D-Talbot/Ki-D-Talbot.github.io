@@ -133,7 +133,7 @@ gantt
     
     section Completion
     Final Implementation         :a7, after a6, 2w
-
+```
 
 ### Key Milestones:
 
