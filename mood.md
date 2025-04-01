@@ -114,3 +114,18 @@ Get a feel for the vibes.
   </div>
   <p>Cool Manta Ray.</p>
 </div>
+
+<div class="col-12">
+  <h3>Inspiration Video</h3>
+  <div class="video-container">
+    <iframe 
+      width="100%" 
+      height="400" 
+      src="https://www.youtube.com/embed/fO4X5UrE4qg?start=412&amp;end=419" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+  <p>Cool Manta Ray.</p>
+</div>
