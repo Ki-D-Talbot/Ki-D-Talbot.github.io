@@ -45,7 +45,7 @@ This project followed a structured product development process that integrated v
 ### 1. Research and Biomimicry Phase
 
 The initial phase involved:
-- Analyzing manta ray swimming mechanics through video studies and biological research
+- Analysing manta ray swimming mechanics through video studies and biological research
 - Investigating existing compliant mechanism designs in robotics literature
 - Studying the principles of 3D printing with moving parts in-place
 - Reviewing material options for both structural and flexible components
@@ -174,7 +174,7 @@ Several limitations were also encountered:
 
 2. **Resource Limitations**: 3D printing materials and electronic components had cost implications that constrained certain design possibilities.
 
-3. **Simulation Accuracy**: Virtual testing couldn't fully predict the behavior of printed compliant mechanisms, particularly regarding layer adhesion effects.
+3. **Simulation Accuracy**: Virtual testing couldn't fully predict the behaviour of printed compliant mechanisms, particularly regarding layer adhesion effects.
 
 ### Industrial Applications of the Methodology
 
