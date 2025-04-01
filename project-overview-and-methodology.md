@@ -17,26 +17,38 @@ This project focuses on the intersection of biomimicry and compliant mechanisms,
 
 ## Project Brief & Requirements
 
-The assignment required developing a prototype solution for robotic applications, specifically focusing on:
+The assignment required developing a prototype solution for robotic applications within a team of four students, specifically focusing on:
 
 1. Creating a moving joint mechanism that demonstrates biomimetic principles
 2. Developing an aesthetic covering that enhances the design
 3. Integrating virtual prototypes with physical implementations
 4. Documenting the design evolution through a structured product development process
 
-My interpretation of this brief was to create a manta ray-inspired sculpture that "swims" through air, mimicking the wing motion of these graceful creatures while utilizing modern manufacturing techniques that showcase innovative approaches to robotic design.
+My interpretation of this brief was to create a manta ray-inspired sculpture that "swims" through air, mimicking the wing motion of these graceful creatures whilst utilising modern manufacturing techniques that showcase innovative approaches to robotic design.
+
+## Team Structure and Contributions
+
+This project was formally structured as a team effort among four students. Whilst maintaining a collaborative environment, I took primary responsibility for the design and development process, including:
+
+- Conceptualisation and research of the manta ray biomimicry approach
+- CAD modelling and virtual prototyping
+- 3D printing and physical prototype development
+- Testing and refinement of designs
+- Documentation and analysis
+
+This portfolio represents my contributions and design process throughout the project, with appropriate acknowledgement of any team input. Taking leadership in the technical development allowed me to fully explore the integration of virtual and physical prototyping methods, which is a central focus of this module.
 
 ## Design Goals
 
 The project was guided by the following specific design objectives:
 
 1. **Biomimetic Movement**: Approximate the undulating, wave-like motion characteristic of manta rays
-2. **Mechanical Simplicity**: Utilize compliant mechanisms to reduce the number of separate mechanical parts
+2. **Mechanical Simplicity**: Utilise compliant mechanisms to reduce the number of separate mechanical parts
 3. **Manufacturing Efficiency**: Design for 3D printing with minimal post-processing requirements
 4. **Maintenance Consideration**: Create a design that could be easily maintained and repaired when necessary
 5. **Aesthetic Quality**: Develop a visually appealing form that accurately represents a manta ray
 
-These goals were established after initial research into both manta ray biology and compliant mechanism design principles. While some of these goals evolved throughout the project (as will be discussed in later sections), they provided a foundation for early design decisions.
+These goals were established after initial research into both manta ray biology and compliant mechanism design principles. Whilst some of these goals evolved throughout the project (as will be discussed in later sections), they provided a foundation for early design decisions.
 
 ## Product Development Methodology
 
@@ -56,11 +68,11 @@ This research phase was critical in understanding both the biological model I wa
 
 The virtual prototyping phase included:
 - Creating initial CAD concepts focusing on wing mechanics
-- Simulating movement patterns through 3D modeling
-- Analyzing structural integrity and potential failure points
+- Simulating movement patterns through 3D modelling
+- Analysing structural integrity and potential failure points
 - Iterating designs based on virtual testing results
 
-Virtual prototyping allowed for rapid exploration of different mechanical approaches before committing to physical production. I utilized CAD software to develop detailed models that could predict how the printed parts would behave in reality.
+Virtual prototyping allowed for rapid exploration of different mechanical approaches before committing to physical production. I utilised CAD software to develop detailed models that could predict how the printed parts would behave in reality.
 
 ### 3. Physical Prototyping and Testing
 
@@ -75,7 +87,7 @@ This phase revealed critical insights that weren't apparent in virtual testing, 
 ### 4. Iterative Refinement
 
 The iterative refinement process included:
-- Analyzing test results from physical prototypes
+- Analysing test results from physical prototypes
 - Revising virtual models based on physical performance
 - Implementing design changes to address identified limitations
 - Progressively improving both mechanical function and aesthetic form
@@ -122,7 +134,7 @@ The project development followed this timeline, highlighting key milestones and 
 
 4. **Design Pivot (Week 7)**:
    - Critical decision to abandon single-piece approach
-   - Reframing of design goals to prioritize modularity
+   - Reframing of design goals to prioritise modularity
    - This represents a significant reflection point in the project
 
 5. **Modular Redesign (Week 8-9)**:
@@ -133,7 +145,7 @@ The project development followed this timeline, highlighting key milestones and 
 6. **Refined Prototyping (Week 10-11)**:
    - Testing of individual components
    - Integration of electronic control system
-   - Optimization of movements and mechanisms
+   - Optimisation of movements and mechanisms
 
 7. **Final Implementation (Week 12-13)**:
    - Assembly of complete modular system
