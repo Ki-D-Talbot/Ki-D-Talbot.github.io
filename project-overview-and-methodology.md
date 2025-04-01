@@ -113,7 +113,27 @@ Throughout this methodology, documentation played a crucial role in tracking des
 
 The project development followed this timeline, highlighting key milestones and decision points:
 
-{% include timeline-diagram.html %}
+```mermaid
+gantt
+    title Manta Ray Robot Development Timeline
+    dateFormat  YYYY-MM-DD
+    axisFormat  Week %W
+    
+    section Research Phase
+    Research & Concept           :a1, 2025-01-01, 2w
+    First Design Concept         :a2, after a1, 2w
+    
+    section Initial Testing
+    First Physical Prototype     :a3, after a2, 2w
+    Design Pivot                 :a4, after a3, 1w
+    
+    section Redesign Phase
+    Modular Redesign             :a5, after a4, 2w
+    Refined Prototyping          :a6, after a5, 2w
+    
+    section Completion
+    Final Implementation         :a7, after a6, 2w
+
 
 ### Key Milestones:
 

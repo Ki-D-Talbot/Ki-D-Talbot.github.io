@@ -1,5 +1,5 @@
 ---
-layout: pagex
+layout: page
 title: Contact
 permalink: /contact/
 ---
