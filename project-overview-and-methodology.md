@@ -115,7 +115,8 @@ Throughout this methodology, documentation played a crucial role in tracking des
 
 The project development followed this timeline, highlighting key milestones and decision points:
 
-```mermaid
+<div class="mermaid">
+
 gantt
     title Manta Ray Robot Development Timeline
     dateFormat  YYYY-MM-DD
@@ -135,7 +136,7 @@ gantt
     
     section Completion
     Final Implementation         :a7, after a6, 2w
-```
+<div>
 
 ### Key Milestones:
 
