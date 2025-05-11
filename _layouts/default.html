@@ -115,5 +115,14 @@
             <script src="{{ site.baseurl }}/assets/js/main.js"></script>
             <script src="{{ site.baseurl }}/assets/js/custom.js"></script>
 
+            <!-- Mermaid Initialization -->
+            <script>
+              document.addEventListener('DOMContentLoaded', function () {
+                if (typeof mermaid !== 'undefined') {
+                  mermaid.initialize({ startOnLoad: true });
+                }
+              });
+            </script>
+
     </body>
 </html>
