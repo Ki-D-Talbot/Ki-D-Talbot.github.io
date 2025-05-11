@@ -24,6 +24,11 @@
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
+
+			// Initialize Mermaid.js
+			if (typeof mermaid !== 'undefined') {
+				mermaid.initialize({ startOnLoad: true });
+			}
 		});
 
 	// Nav.
