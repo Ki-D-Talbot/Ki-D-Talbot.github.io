@@ -15,6 +15,7 @@ This project focuses on the intersection of biomimicry and compliant mechanisms,
   <figcaption>Figure 1: Manta ray swimming pattern - inspiration for biomimetic design (Smith, 2023)</figcaption>
 </figure>
 
+
 ## Project Brief & Requirements
 
 The assignment required developing a prototype solution for robotic applications within a team of four students, specifically focusing on:
@@ -108,6 +109,7 @@ Throughout this methodology, documentation played a crucial role in tracking des
   <img src="assets/images/methodology-diagram.jpg" alt="Product development methodology diagram">
   <figcaption>Figure 2: Visual representation of the product development methodology employed</figcaption>
 </figure>
+
 
 ## Project Timeline and Evolution
 
