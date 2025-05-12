@@ -30,6 +30,12 @@
                   <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
                 {% endif %}
               {% endfor %}
+              {% for path in site.header_pages %}
+                {% assign my_page = site.pages | where: "path", path | first %}
+                {% if my_page.title %}
+                <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a></li>
+                {% endif %}
+              {% endfor %}
             </ul>
           </div>
         </div>
@@ -65,6 +71,12 @@
                                         {% endif %}
                                     {% endif %}
                                 {% endfor %}
+                                {% for path in site.header_pages %}
+                                  {% assign my_page = site.pages | where: "path", path | first %}
+                                  {% if my_page.title %}
+                                  <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a></li>
+                                  {% endif %}
+                                {% endfor %}
                             </ul>
                         </nav>
 
@@ -95,7 +107,7 @@
 
                 <!-- Copyright -->
                     <ul class="copyright">
-                        <li>&copy; v1.13 All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        <li>&copy; v1.14 All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
                     </ul>
 
             </div>
