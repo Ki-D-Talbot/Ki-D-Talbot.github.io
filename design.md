@@ -10,7 +10,7 @@ order: 4
 we started by thinking of the articulated part of the project.
 our first idea was a stacked 4 bar linkage, but this was not very effective
 <figure>
-  <iframe width="700" height="400" src="https://www.youtube.com/embed/v=0tWREmdf3wI" frameborder="0" allowfullscreen></iframe>
+  <iframe width="700" height="400" src="https://www.youtube.com/embed/watch?v=0tWREmdf3wI" frameborder="0" allowfullscreen></iframe>
   <figcaption>Video 1: Demonstration 4 bar linkage idea</figcaption>
 </figure>
 this was built using some 3d printed mechano like parts
