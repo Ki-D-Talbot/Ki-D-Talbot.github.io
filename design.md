@@ -2,7 +2,7 @@
 layout: page
 title: "Design Development"
 permalink: /design/
-order: 4
+order: 5
 ---
 
 # Design Development

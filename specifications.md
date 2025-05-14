@@ -1,7 +1,8 @@
 ---
 layout: page
-title: "Project Planning and Requirements"
-permalink: /project-planning/
+title: "Specifications"
+permalink: /specifications/
+order: 4
 ---
 
 # Project Planning and Requirements
