@@ -25,17 +25,22 @@
               <li><a href="{{ site.baseurl }}/mood/">Mood Board</a></li>
               <li><a href="{{ site.baseurl }}/about/">About Me</a></li>
               <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
-              {% for page in site.pages %}
-                {% if page.title and page.layout == 'page' and page.title != 'About Me' and page.title != 'Portfolio' and page.title != 'Contact' %}
-                  <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
-                {% endif %}
+              {% assign mobile_pages = site.pages | where: "layout", "page" %}
+              {% for page in mobile_pages %}
+                {% unless page.path contains '_drafts' or page.hidden == true or page.title == 'About Me' or page.title == 'Portfolio' or page.title == 'Contact' %}
+                  {% if page.title %}
+                    <li><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></li>
+                  {% endif %}
+                {% endunless %}
               {% endfor %}
-              {% for path in site.header_pages %}
-                {% assign my_page = site.pages | where: "path", path | first %}
-                {% if my_page.title %}
-                <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a></li>
-                {% endif %}
-              {% endfor %}
+              {% if site.header_pages %}
+                {% for path in site.header_pages %}
+                  {% assign my_page = site.pages | where: "path", path | first %}
+                  {% if my_page.title and my_page.hidden != true %}
+                    <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a></li>
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
             </ul>
           </div>
         </div>
@@ -55,9 +60,9 @@
                     <!-- Nav -->
                         <nav id="nav">
                             <ul>
-                                {% assign nav_pages = site.pages | where_exp: "page", "page.layout == 'page'" | where_exp: "page", "page.title != null" | where_exp: "page", "page.path contains '_drafts' != true" %}
+                                {% assign nav_pages = site.pages | where: "layout", "page" %}
                                 {% for p in nav_pages %}
-                                    {% unless p.hidden == true %}
+                                    {% unless p.path contains '_drafts' or p.hidden == true or p.title == null %}
                                         <li>
                                             <a href="{{ site.baseurl }}{{ p.url }}" id="{{ p.title | slugify }}-link">
                                                 {% if p.title contains 'Compliant' %}
