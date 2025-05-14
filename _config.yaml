@@ -34,7 +34,7 @@ collections:
 
 # Navigation order
 header_pages:
-  - mood.md
-  - index.md
-  - project-overview-and-methodology.md
-  - design-development.md
+#  - mood.md
+#  - index.md
+#  - project-overview-and-methodology.md
+#  - design-development.md
