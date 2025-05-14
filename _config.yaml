@@ -38,6 +38,5 @@ collections:
 header_pages:
   - mood.md
   - index.md
-  - about.md
   - project-overview-and-methodology.md
   - design-development.md
