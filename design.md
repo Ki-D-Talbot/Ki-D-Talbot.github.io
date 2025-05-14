@@ -10,12 +10,12 @@ order: 4
 we started by thinking of the articulated part of the project.
 our first idea was a stacked 4 bar linkage, but this was not very effective
 <figure>
-  <iframe width="700" height="400" src="https://www.youtube.com/embed/watch?v=0tWREmdf3wI" frameborder="0" allowfullscreen></iframe>
+  <iframe width="700" height="400" src="https://www.youtube.com/embed/0tWREmdf3wI" frameborder="0" allowfullscreen></iframe>
   <figcaption>Video 1: Demonstration 4 bar linkage idea</figcaption>
 </figure>
 this was built using some 3d printed mechano like parts
 <figure>
-  <iframe width="700" height="400" src="https://www.youtube.com/embed/Yv=l0D05F_FX7s" frameborder="0" allowfullscreen></iframe>
+  <iframe width="700" height="400" src="https://www.youtube.com/embed/l0D05F_FX7s" frameborder="0" allowfullscreen></iframe>
   <figcaption>Video 2: Demonstration of 4 bar linkage</figcaption>
 </figure>
 while it worked, it wasn't the movnemt we were looking for, we tried an Ornithopter inspired mechanism
