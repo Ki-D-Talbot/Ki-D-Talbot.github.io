@@ -2,6 +2,7 @@
 layout: page
 title: "Design Development"
 permalink: /design/
+order: 4
 ---
 
 # Design Development
@@ -32,14 +33,14 @@ while showing an old project for a finger to the team, we realised the mechanism
   <figcaption>Video 4: Finger video</figcaption>
 </figure>
 here you can see the system for the tendons and knuckle assembly
-![finger](images\Screenshot 2024-10-04 121655.png)
+![finger](/images/Screenshot%202024-10-04%20121655.png)
 
 the symetrical movment was much closer to the rays movment, infact ,much closer than it was to a hand! 
 
 we started a fresh cad model with this design in mind
 
-![cad sketch](images\cad sketch 1.png)
+![cad sketch](/images/cad%20sketch%201.png)
 
 here rigid section are connected by a flexible spring section, the stiffness of the spring can be adjusted by changing the wall thickness. teh printer nozzel is 0.4 so all complient parts were a multiple of this number. a variable was added to the cad program (onshape) to allow for parametric design. 
 
-#
+we kept the modular design of the finger, designing them to be attached to a frame by a sliding rail system. 

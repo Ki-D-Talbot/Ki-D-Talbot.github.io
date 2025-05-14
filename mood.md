@@ -2,6 +2,7 @@
 layout: page
 title: Mood Board
 permalink: /mood/
+order: 3
 ---
 
 ## Mood Board
