@@ -33,14 +33,20 @@ while showing an old project for a finger to the team, we realised the mechanism
   <figcaption>Video 4: Finger video</figcaption>
 </figure>
 here you can see the system for the tendons and knuckle assembly
-![finger](/images/Screenshot%202024-10-04%20121655.png)
+<figure>
+  <img src="/images/Screenshot%202024-10-04%20121655.png" alt="cad sketch" width="500">
+  <figcaption>Figure 1: CAD sketch of the ray design concept</figcaption>
+</figure>
 
 the symetrical movment was much closer to the rays movment, infact ,much closer than it was to a hand! 
 
 we started a fresh cad model with this design in mind
 
-![cad sketch](/images/cad%20sketch%201.png)
+<figure>
+  <img src="/images/cad%20sketch%201.png" alt="cad sketch" width="500">
+  <figcaption>Figure 1: CAD sketch of the ray design concept</figcaption>
+</figure>
 
-here rigid section are connected by a flexible spring section, the stiffness of the spring can be adjusted by changing the wall thickness. teh printer nozzel is 0.4 so all complient parts were a multiple of this number. a variable was added to the cad program (onshape) to allow for parametric design. 
+here rigid section are connected by a flexible spring section, the stiffness of the spring can be adjusted by changing the wall thickness. teh printer nozzel is 0.4 so all complient parts were a multiple of this number. a variable was added to the cad program (onshape) to allow for parametric design. the length of the spring section helps spead the stress of the bend over a larger area, this is an important consideration in compiant design [citation needed].
 
-we kept the modular design of the finger, designing them to be attached to a frame by a sliding rail system. 
+we kept the modular design of the finger, designing fins to be attached to a frame by a sliding rail system. 
