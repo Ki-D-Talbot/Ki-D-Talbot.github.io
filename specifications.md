@@ -5,7 +5,7 @@ permalink: /specifications/
 order: 4
 ---
 
-# Project Planning and Requirements
+### Project Planning and Requirements
 
 ## Design Specifications
 

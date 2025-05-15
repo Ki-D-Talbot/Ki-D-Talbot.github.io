@@ -15,4 +15,4 @@ After an initial research phase, it became clear that print-in-place and complia
 
 A manta ray was chosen as the subject of the sculpture due to its elegant swimming motion and distinctive morphology. This biomimetic sculpture is designed to replicate the undulating, wave-like propulsion of the ray's pectoral fins. As noted by Culmone et al. (2020), biomimetic approaches that leverage non-assembly 3D printing techniques can create sophisticated movement systems that mimic natural forms whilst maintaining a simplified manufacturing process, making them ideal for sculptural applications that demonstrate mechanical principles.
 
-check out the mood board!
+Check out the mood board!
