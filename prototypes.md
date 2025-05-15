@@ -38,8 +38,7 @@ We took advantage of 3d printings impressive bridging capability and used paint 
 </figure>
 <br>
 
-A more pliable material like PETG would likely make the mechanism even more robust, offering better layer adhesion and fatigue resistance. TPU was also considered but proved challenging to print with our available equipment due to its extreme flexibility.
-
+A material like PETG would likely make the mechanism even more robust, offering a longer life cycle through fatigue resistance. TPU was not considered as rigidness was a key requirement for the mechanism to function correctly.
 ### Design Direction Pivot
 
 Despite the promising mechanical results, this design direction was ultimately vetoed by the team due to concerns about the overall thickness of the wing. This was disappointing as the totally print-in-place mechanism had been a novel and exciting development. It was ultimately the right decision though.
