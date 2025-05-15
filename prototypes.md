@@ -7,7 +7,7 @@ order: 6
 
 # Prototypes
 
-Many prototypes were created throughout the development process. Please enjoy this brief montage showing our journey:
+Many prototypes were created throughout the development process. Please endure this poorly edited montage:
 
 <figure>
   <iframe width="700" height="400" src="https://www.youtube.com/embed/eGq_Y_jL0Yc" frameborder="0" allowfullscreen></iframe>
