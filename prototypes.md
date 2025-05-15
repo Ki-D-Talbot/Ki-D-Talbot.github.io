@@ -16,6 +16,7 @@ Many prototypes were created throughout the development process. Please endure t
 
 ## Challenges and Solutions
 
+
 We ran into several interesting challenges with the compliant mechanisms. One major issue was calculating the correct length of the tendons. Whilst rigid joints are relatively easy to animate in CAD programs, compliant mechanisms proved much harder to simulate accurately. This difficulty is well-documented by Mutlu et al., who found that the performance of 3D-printed compliant mechanisms often deviates from simulated predictions due to the complex material behaviour under deformation.
 
 Our solution was practical and hands-on: we printed a wing, marked a spot on the tendon, then bent the wing to the maximum position and measured how far the tendon had moved. This empirical approach proved more reliable than simulation for our specific application.
