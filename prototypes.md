@@ -50,3 +50,4 @@ From a manufacturing perspective, having a single-part design presents a trade-o
   </script>
 </div>
 <figcaption>Figure 8: Interactive 3D model of the abandoned design</figcaption>
+
