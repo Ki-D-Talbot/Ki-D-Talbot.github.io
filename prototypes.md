@@ -26,7 +26,14 @@ We also noticed that the joints further away from the base moved less than the o
 
 The 3D printing process offered significant advantages for our compliant mechanisms. Unlike traditional manufacturing methods that would require assembly of separate components, FDM printing allowed us to create complex, interconnected structures in a single print operation.
 
-Even with a relatively brittle material like PLA, we were able to produce working proof-of-concept models. We found that proper print orientation was critical - printing the flexible sections with layers perpendicular to the bend direction gave the best results and prevented layer delamination during repeated flexing. This aligns with Liu and Hung's (2022) findings that print parameters significantly affect the performance of 3D-printed compliant mechanisms, with infill density and print orientation playing crucial roles in determining flexibility and durability.
+Even with a relatively brittle material like PLA, we were able to produce working proof-of-concept models. We found that proper print orientation was critical; printing the flexible sections with layers perpendicular to the bend direction gave the best results and prevented layer delamination during repeated flexing. This aligns with Liu and Hung's (2022) findings that print parameters significantly affect the performance of 3D-printed compliant mechanisms, with infill density and print orientation playing crucial roles in determining flexibility and durability.
+
+We took advantage of 3d printings impressive bridging capability and used paint on supports to minimise material use and ensure no internal binding occured.
+
+<figure>
+  <img src="/images/paint.png" alt="cad sketch" width="500">
+  <figcaption>Figure 7: painted on support to aid bridging</figcaption>
+</figure>
 
 A more pliable material like PETG would likely make the mechanism even more robust, offering better layer adhesion and fatigue resistance. TPU was also considered but proved challenging to print with our available equipment due to its extreme flexibility.
 
@@ -36,4 +43,8 @@ Despite the promising mechanical results, this design direction was ultimately v
 
 From a manufacturing perspective, having a single-part design presents a trade-off between repairability and ease of assembly. If a tendon failed, the entire assembly would need to be replaced. Whilst easy to produce, this approach could be wasteful and environmentally problematic compared to a more modular design that allows replacement of individual components.
 
-This realisation led us to reconsider our approach, exploring more modular alternatives that might sacrifice some of the elegance of the print-in-place design but offer better long-term sustainability and repairability. This pivot reflects a common challenge in biomimetic design noted by Seok et al. (2013), who found that balancing mechanical performance with practical considerations like maintenance and repairability often requires compromises in the design approach.
+<div class="stl-viewer-container">
+  <script src="https://embed.github.com/view/3d/Ki-D-Talbot/Ki-D-Talbot.github.io/main/models/show.stl">
+  </script>
+</div>
+<figcaption>Figure 5: Interactive 3D model of the wing design</figcaption
