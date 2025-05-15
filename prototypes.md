@@ -10,7 +10,7 @@ order: 6
 Many prototypes were created throughout the development process. Please endure this poorly edited montage:
 
 <figure>
-  <iframe width="700" height="400" src="https://www.youtube.com/embed/eGq_Y_jL0Yc" frameborder="0" allowfullscreen></iframe>
+  <iframe width="700" height="400" src="https://www.youtube.com/embed/eGq_Y_jL0Yc?cc_load_policy=1" frameborder="0" allowfullscreen></iframe>
   <figcaption>Video 6: Montage of prototype development and testing</figcaption>   
 </figure>
 
