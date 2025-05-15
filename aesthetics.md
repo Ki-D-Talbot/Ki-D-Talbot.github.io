@@ -23,7 +23,7 @@ A skin was designed in CAD
 </div>
 <br>
 
-The shape was made in cad although Blender would have been a better choice for more organic modelling like this.
+The shape was made in cad although Blender would have been a better choice for organic modelling like this.
 
 For Realism we bought a plaice from the supermarket and took it to be 3d scanned!
 
