@@ -34,7 +34,7 @@ We took advantage of 3d printings impressive bridging capability and used paint 
 
 <figure>
   <img src="/images/paint.png" alt="cad sketch" width="500">
-  <figcaption>Figure 7: painted on support to aid bridging</figcaption>
+  <figcaption>Figure 7: Painted on support to aid bridging</figcaption>
 </figure>
 <br>
 
