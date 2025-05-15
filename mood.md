@@ -5,6 +5,12 @@ permalink: /mood/
 order: 3
 ---
 
+<!-- Add this to your mood-board.md file -->
+<audio id="background-audio" autoplay loop>
+    <source src="{{ site.baseurl }}/audio/relaxing-ocean-waves-high-quality-recorded-177004.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
 ## Mood Board
 
 Get a feel for the vibes.
