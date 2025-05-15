@@ -30,23 +30,9 @@ Get a feel for the vibes.
   </div>
   <div class="col-4 col-12-mobile">
     <article class="item">
-      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/MANTARAY.png" alt="" /></a>
-      <header><h3>Project 3</h3></header>
-    </article>
-    <article class="item">
       <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/4.jpg" alt="" /></a>
       <header><h3>Photo by <a href="https://unsplash.com/@divenau?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">naushad mohamed</a> on <a href="https://unsplash.com/photos/black-and-white-whale-under-water-epurOEDnOnc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
       </h3></header>
-    </article>
-  </div>
-  <div class="col-4 col-12-mobile">
-    <article class="item">
-      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/pic06.jpg" alt="" /></a>
-      <header><h3>Project 5</h3></header>
-    </article>
-    <article class="item">
-      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/pic07.jpg" alt="" /></a>
-      <header><h3>Project 6</h3></header>
     </article>
   </div>
   
@@ -63,6 +49,7 @@ Get a feel for the vibes.
 
 
 <div class="sketchfab-embed-wrapper col-12">
+  <h3>Interactive 3D Render</h3>
   <iframe 
     title="MANTA"
     width="100%"
@@ -129,7 +116,7 @@ Get a feel for the vibes.
       allowfullscreen>
     </iframe>
   </div>
-  <p>Cool Manta Ray.</p>
+  <p>Cool Robot Manta Ray.</p>
 </div>
 
 <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@mechanicalcreations/video/7473135580247805206" data-video-id="7473135580247805206" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@mechanicalcreations" href="https://www.tiktok.com/@mechanicalcreations?refer=embed">@mechanicalcreations</a> A complex new project<a title="automata" target="_blank" href="https://www.tiktok.com/tag/automata?refer=embed">#automata</a> <a title="automaton" target="_blank" href="https://www.tiktok.com/tag/automaton?refer=embed">#automaton</a> <a title="mechanicalcreation" target="_blank" href="https://www.tiktok.com/tag/mechanicalcreation?refer=embed">#mechanicalcreation</a> <a title="artist" target="_blank" href="https://www.tiktok.com/tag/artist?refer=embed">#artist</a> <a title="archer" target="_blank" href="https://www.tiktok.com/tag/archer?refer=embed">#archer</a> <a target="_blank" title="♬ original sound - Mechanicalcreations" href="https://www.tiktok.com/music/original-sound-7473135605237713687?refer=embed">♬ original sound - Mechanicalcreations</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>

@@ -55,15 +55,14 @@ because we have no positional feedback on 360 motors we used a rotary encoder to
 
 <figure>
   <img src="/images/encoder2.png" alt="cad sketch" width="500">
-    <figcaption>Figure 13: Sketch of the encoder design</figcaption>
+    <figcaption>Figure 13: Sketch of the encoder integration</figcaption>
 </figure>
-<br>
 
 Its getting tight in there!
 
 <br>
 
-a top and bottom case was printed, this serves two purposes, it protects and give somewhere for the aesthetic covering to go but crucially it keeps the axels in place and ensure the teeth of the gears mesh correctly. Speaking of gears the ratio is 2:1 so we double the torque of the servos.
+A top and bottom case was printed, this serves two purposes, it protects and give somewhere for the aesthetic covering to go but crucially it keeps the axels in place and ensure the teeth of the gears mesh correctly. Speaking of gears the ratio is 2:1 so we double the torque of the servos.
 
 In keeping with the original design we used 3d printed fasteners for the case, the axels had a circlip which proved cheap and reliable if not fiddley to install. the rigidity of the case came from 3d printed nuts and bolts, theses worked incredibly well, by slicing  around 1/4 of the bolt off to give a flat surface to adhere to the bed, the layer lines made the bolts strong
 
