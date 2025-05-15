@@ -59,9 +59,12 @@ We started a fresh CAD model with this design in mind.
   <figcaption>Figure 2: CAD sketch of the ray design concept</figcaption>
 </figure>
 
-Here rigid sections are connected by a flexible spring section, the stiffness of the spring can be adjusted by changing the wall thickness. The printer nozzle is 0.4mm so all compliant parts were a multiple of this number. A variable was added to the CAD program (Onshape) to allow for parametric design. The length of the spring section helps spread the stress of the bend over a larger area, this is an important consideration in compliant design (Howell et al., 2013).
+Here rigid sections are connected by a flexible spring section, the stiffness of the spring can be adjusted by changing the wall thickness. The printer nozzle is 0.4mm so all compliant parts were a multiple of this number. A variable was added to the CAD program (Onshape) to allow for parametric design. The length of the spring section helps spread the stress of the bend over a larger area, this is an important consideration in compliant design (Megaro et al., 2017).
+
+This approach aligns with research by Zolfagharian et al. (2021), who demonstrated that bio-inspired compliant mechanisms can achieve complex biomimetic movements whilst maintaining a simplified manufacturing process. Their work on 3D-printed soft grippers showed how strategic placement of flexible elements can create sophisticated movement patterns using a single actuation source.
 
 We kept the modular design of the finger, designing fins to be attached to a frame by a sliding rail system. 
+
 
 <figure>
   <img src="/images/rail.png" alt="cad sketch" width="500">
@@ -102,4 +105,4 @@ We went back to the single tendon design to keep it simple and designed a gear m
   <figcaption>Video 5: Gear Mesh</figcaption>
 </figure>
 
-The gear system was designed using Onshape's spur gear add-on, which facilitated precise control over tooth pitch and radius. Each tendon was attached to its own gear, mounted on a print-in-place axle to eliminate post-print assembly requirements.
+The gear system was designed using Onshape's spur gear add-on, which facilitated precise control over tooth pitch and radius. Each tendon was attached to its own gear, mounted on a print-in-place axle to minimise post-print assembly requirements.
