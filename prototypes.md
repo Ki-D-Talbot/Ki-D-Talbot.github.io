@@ -5,7 +5,7 @@ permalink: /prototypes/
 order: 6
 ---
 
-# Prototypes
+### Prototypes
 
 Many prototypes were created throughout the development process. Please endure this poorly edited montage:
 
@@ -32,7 +32,7 @@ A more pliable material like PETG would likely make the mechanism even more robu
 
 ## Design Direction Pivot
 
-Despite the promising mechanical results, this design direction was ultimately vetoed by the team due to concerns about the overall girth of the wing. This was disappointing as the totally print-in-place mechanism had shown significant potential for creating fluid, biomimetic movement. Culmone et al. (2020) highlight the advantages of print-in-place mechanisms for creating functional compliant structures, noting that they eliminate assembly requirements whilst enabling complex mechanical behaviours.
+Despite the promising mechanical results, this design direction was ultimately vetoed by the team due to concerns about the overall thickness of the wing. This was disappointing as the totally print-in-place mechanism had shown significant potential for creating fluid, biomimetic movement. Culmone et al. (2020) highlight the advantages of print-in-place mechanisms for creating functional compliant structures, noting that they eliminate assembly requirements whilst enabling complex mechanical behaviours.
 
 From a manufacturing perspective, having a single-part design presents a trade-off between repairability and ease of assembly. If a tendon failed, the entire assembly would need to be replaced. Whilst easy to produce, this approach could be wasteful and environmentally problematic compared to a more modular design that allows replacement of individual components.
 
