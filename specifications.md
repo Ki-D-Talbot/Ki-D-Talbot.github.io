@@ -5,9 +5,9 @@ permalink: /specifications/
 order: 4
 ---
 
-### Project Planning and Requirements
+## Project Planning and Requirements
 
-## Design Specifications
+### Design Specifications
 
 The following constraints and requirements were established to guide the design and development process:
 
@@ -23,7 +23,7 @@ The following constraints and requirements were established to guide the design 
 
 These specifications were developed based on both practical manufacturing constraints and the functional goals of the project, aligning with Sartori et al.'s (2010) methodology for integrating biomimetic principles with engineering feasibility considerations.
 
-## Development Timeline
+### Development Timeline
 
 The project followed a structured development process divided into research, prototyping, design iteration, and final implementation phases:
 
