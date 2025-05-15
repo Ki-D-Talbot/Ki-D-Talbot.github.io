@@ -5,7 +5,7 @@ permalink: /prototypes/
 order: 6
 ---
 
-# Prototypes
+## Prototypes
 
 Many prototypes were created throughout the development process. Please endure this poorly edited montage:
 
@@ -13,9 +13,10 @@ Many prototypes were created throughout the development process. Please endure t
   <iframe width="700" height="400" src="https://www.youtube.com/embed/eGq_Y_jL0Yc?cc_load_policy=1" frameborder="0" allowfullscreen></iframe>
   <figcaption>Video 6: Montage of prototype development and testing</figcaption>   
 </figure>
+<br>
 
 
-## Challenges and Solutions
+### Challenges and Solutions
 
 We ran into several interesting challenges with the compliant mechanisms. One major issue was calculating the correct length of the tendons. Whilst rigid joints are relatively easy to animate in CAD programs, compliant mechanisms proved much harder to simulate accurately. This difficulty is well-documented by Mutlu et al., who found that the performance of 3D-printed compliant mechanisms often deviates from simulated predictions due to the complex material behaviour under deformation.
 
@@ -23,7 +24,7 @@ Our solution was practical and hands-on: we printed a wing, marked a spot on the
 
 We also noticed that the joints further away from the base moved less than the ones closer to the base. To compensate for this, we reduced the wall thickness in the last joint to allow for more flexibility, creating a more balanced movement across the entire wing. Schumacher et al. discuss similar approaches to controlling elasticity in 3D printing by strategically varying structural parameters to achieve desired deformation patterns.
 
-## Manufacturing Considerations
+### Manufacturing Considerations
 
 The 3D printing process offered significant advantages for our compliant mechanisms. Unlike traditional manufacturing methods that would require assembly of separate components, FDM printing allowed us to create complex, interconnected structures in a single print operation.
 
@@ -35,10 +36,11 @@ We took advantage of 3d printings impressive bridging capability and used paint 
   <img src="/images/paint.png" alt="cad sketch" width="500">
   <figcaption>Figure 7: painted on support to aid bridging</figcaption>
 </figure>
+<br>
 
 A more pliable material like PETG would likely make the mechanism even more robust, offering better layer adhesion and fatigue resistance. TPU was also considered but proved challenging to print with our available equipment due to its extreme flexibility.
 
-## Design Direction Pivot
+### Design Direction Pivot
 
 Despite the promising mechanical results, this design direction was ultimately vetoed by the team due to concerns about the overall thickness of the wing. This was disappointing as the totally print-in-place mechanism had been a novel and exciting development. It was ultimately the right decision though.
 
