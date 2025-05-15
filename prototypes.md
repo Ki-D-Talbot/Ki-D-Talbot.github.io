@@ -5,7 +5,7 @@ permalink: /prototypes/
 order: 6
 ---
 
-### Prototypes
+# Prototypes
 
 Many prototypes were created throughout the development process. Please endure this poorly edited montage:
 
@@ -14,8 +14,8 @@ Many prototypes were created throughout the development process. Please endure t
   <figcaption>Video 6: Montage of prototype development and testing</figcaption>   
 </figure>
 
-## Challenges and Solutions
 
+## Challenges and Solutions
 
 We ran into several interesting challenges with the compliant mechanisms. One major issue was calculating the correct length of the tendons. Whilst rigid joints are relatively easy to animate in CAD programs, compliant mechanisms proved much harder to simulate accurately. This difficulty is well-documented by Mutlu et al., who found that the performance of 3D-printed compliant mechanisms often deviates from simulated predictions due to the complex material behaviour under deformation.
 
@@ -29,7 +29,7 @@ The 3D printing process offered significant advantages for our compliant mechani
 
 Even with a relatively brittle material like PLA, we were able to produce working proof-of-concept models. We found that proper print orientation was critical; printing the flexible sections with layers perpendicular to the bend direction gave the best results and prevented layer delamination during repeated flexing. This aligns with Liu and Hung's (2022) findings that print parameters significantly affect the performance of 3D-printed compliant mechanisms, with infill density and print orientation playing crucial roles in determining flexibility and durability.
 
-We took advantage of 3d printings impressive bridging capability and used paint on supports to minimise material use and ensure no internal binding occured.
+We took advantage of 3d printings impressive bridging capability and used paint on supports to minimise material use and ensure no internal binding occurred.
 
 <figure>
   <img src="/images/paint.png" alt="cad sketch" width="500">
