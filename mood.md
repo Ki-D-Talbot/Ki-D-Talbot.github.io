@@ -18,8 +18,9 @@ Get a feel for the vibes.
 <div class="row">
   <div class="col-4 col-12-mobile">
     <article class="item">
-      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/images.jpeg" alt="" /></a>
-      <header><h3>Project 1</h3></header>
+      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/1.jpeg" alt="" /></a>
+      <header><h3>Photo by <a href="https://unsplash.com/@sebaspenalambarri?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sebastian Pena Lambarri</a> on <a href="https://unsplash.com/photos/grey-and-black-stingray-in-underwater-photography-F54xLcv9wQ0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      </h3></header>
     </article>
     <article class="item">
       <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/mantaray_real.jpeg" alt="" /></a>
@@ -32,8 +33,9 @@ Get a feel for the vibes.
       <header><h3>Project 3</h3></header>
     </article>
     <article class="item">
-      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/pic05.jpg" alt="" /></a>
-      <header><h3>Project 4</h3></header>
+      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/4.jpg" alt="" /></a>
+      <header><h3>Photo by <a href="https://unsplash.com/@divenau?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">naushad mohamed</a> on <a href="https://unsplash.com/photos/black-and-white-whale-under-water-epurOEDnOnc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      </h3></header>
     </article>
   </div>
   <div class="col-4 col-12-mobile">
@@ -58,15 +60,7 @@ Get a feel for the vibes.
   </div>
 </div>
 
-<!-- Add more models in a grid if you want -->
-<div class="row">
-  <div class="col-6 col-12-mobile">
-    <div class="stl-viewer-container">
-      <script src="https://embed.github.com/view/3d/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/models/model1.stl?height=300&width=100%"></script>
-    </div>
-    <h4>Model 1 Name</h4>
-  </div>
-  
+
 <div class="sketchfab-embed-wrapper col-12">
   <iframe 
     title="MANTA"
