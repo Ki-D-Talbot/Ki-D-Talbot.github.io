@@ -23,8 +23,9 @@ Get a feel for the vibes.
       </h3></header>
     </article>
     <article class="item">
-      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/mantaray_real.jpeg" alt="" /></a>
-      <header><h3>Project 2</h3></header>
+      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/2.jpeg" alt="" /></a>
+      <header><h3>Photo by <a href="https://unsplash.com/@seefromthesky?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ishan @seefromthesky</a> on <a href="https://unsplash.com/photos/black-and-white-stingray-3rSr37wFxKQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      </h3></header>
     </article>
   </div>
   <div class="col-4 col-12-mobile">
