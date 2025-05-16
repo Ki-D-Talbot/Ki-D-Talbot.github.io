@@ -17,13 +17,23 @@ Culmone, C., Henselmans, P.W., van Starkenburg, R.I. & Breedveld, P. 2020, "Expl
 
 Datla, N.V., Honarvar, M., Nguyen, T.M., Konh, B., Darvish, K., Yu, Y., Dicker, A.P., Podder, T.K. & Hutapea, P. 2012, "Towards a nitinol actuator for an active surgical needle", Smart Materials, Adaptive Structures and Intelligent SystemsAmerican Society of Mechanical Engineers, , pp. 265.
 
+Gibson, I., Rosen, D., Stucker, B. & Khorasani, M. 2020a, Additive Manufacturing Technologies, Springer International Publishing AG, Cham.
+
+Gibson, I., Rosen, D., Stucker, B. & Khorasani, M. 2020b, Additive Manufacturing Technologies, Springer International Publishing AG, Cham.
+
 Gilbert, H.B. & Webster, R.J. 2015, "Rapid, reliable shape setting of superelastic nitinol for prototyping robots", IEEE robotics and automation letters, vol. 1, no. 1, pp. 98–105.
 
 Koyama, Y., Sueda, S., Steinhardt, E., Igarashi, T., Shamir, A. & Matusik, W. 2015, "AutoConnect: computational design of 3D-printable connectors", ACM Transactions on Graphics (TOG), vol. 34, no. 6, pp. 1–11.
 
+Larry L. Howell, Spencer P. Magleby & Brian M. Olsen 2013, Handbook of Compliant Mechanisms, John Wiley & Sons, Incorporated, Newark.
+
 Liu, C. & Hung, P. 2022, "Effect of the infill density on the performance of a 3D-printed compliant finger", Materials & Design, vol. 223, pp. 111203.
 
+M. T. Pope, S. Christensen, D. Christensen, A. Simeonov, G. Imahara & G. Niemeyer 2018, "Stickman: Towards a Human Scale Acrobatic Robot", 2018 IEEE International Conference on Robotics and Automation (ICRA), pp. 2134.
+
 Megaro, V., Zehnder, J., Bächer, M., Coros, S., Gross, M.H. & Thomaszewski, B. 2017, "A computational design tool for compliant mechanisms.", ACM Trans.Graph., vol. 36, no. 4, pp. 82:1–82:12.
+
+Milewski, J.O. 2017, Additive Manufacturing of Metals : From Fundamental Technology to Rocket Nozzles, Medical Implants, and Custom Jewelry, Springer International Publishing AG, Cham.
 
 Mutlu, R., Alici, G., in het Panhuis, M. & Spinks, G. 2015, "Effect of flexure hinge type on a 3D printed fully compliant prosthetic finger", 2015 IEEE International Conference on Advanced Intelligent Mechatronics (AIM)IEEE, , pp. 790.
 
