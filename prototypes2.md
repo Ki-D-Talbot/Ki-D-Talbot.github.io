@@ -8,7 +8,7 @@ order: 8
 ## Mechanical Prototyping & Control System
 
 <figure>
-  <img src="/images/orca.png" alt="cad sketch" width="500">
+  <img src="/images/orca.png" alt="cad sketch" width="100%" style="max-width: 1000px;">
   <figcaption>Slicer setting showing print time and cost</figcaption>
 </figure>
 <br>
