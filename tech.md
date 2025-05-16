@@ -7,7 +7,7 @@ order: 9
 
 ## Technology Utilization
 
-The University of Staffordshire provides access to various technologies. Below is a summary of which technologies were utilized for this project:
+The University of Staffordshire provides access to various technologies. Below is a summary of which technologies were utilised for this project:
 
 | Technology | Status | Comments |
 |------------|--------|----------|

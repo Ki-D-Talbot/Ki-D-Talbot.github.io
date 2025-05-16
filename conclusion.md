@@ -9,6 +9,11 @@ order: 10
 
 Due to time management and task prioritisation/allocation the project failed. The aesthetics component, which was heavily weighted in assessment, was deprioritised in favour of unmarked electronics work.
 
+We didn't leave enough room in the case for the wiring, either an umbilical cord or custom PCB might have been needed. We had concerns about the wire rubbing and considered using Bowden tube as guides.
+
+
+
+
 ## Bibliography
 
 Chandran, P., Zoss, G., Gross, M., Gotardo, P. & Bradley, D. 2022, "Shape Transformers: Topology‐Independent 3D Shape Models Using Transformers", Computer Graphics ForumWiley Online Library, , pp. 195.

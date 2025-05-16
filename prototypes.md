@@ -11,7 +11,7 @@ Many prototypes were created throughout the development process. Please endure t
 
 <figure>
   <iframe width="700" height="400" src="https://www.youtube.com/embed/eGq_Y_jL0Yc?cc_load_policy=1" frameborder="0" allowfullscreen></iframe>
-  <figcaption>Video 6: Montage of prototype development and testing</figcaption>   
+  <figcaption>Montage of prototype development and testing</figcaption>   
 </figure>
 <br>
 
@@ -34,11 +34,12 @@ We took advantage of 3d printings impressive bridging capability and used paint 
 
 <figure>
   <img src="/images/paint.png" alt="cad sketch" width="500">
-  <figcaption>Figure 7: Painted on support to aid bridging</figcaption>
+  <figcaption>Painted on support to aid bridging</figcaption>
 </figure>
 <br>
 
 A material like PETG would likely make the mechanism even more robust, offering a longer life cycle through fatigue resistance. TPU was not considered as rigidness was a key requirement for the mechanism to function correctly.
+
 ### Design Direction Pivot
 
 Despite the promising mechanical results, this design direction was ultimately vetoed by the team due to concerns about the overall thickness of the wing. This was disappointing as the totally print-in-place mechanism had been a novel and exciting development. It was ultimately the right decision though.
@@ -49,5 +50,5 @@ From a manufacturing perspective, having a single-part design presents a trade-o
   <script src="https://embed.github.com/view/3d/Ki-D-Talbot/Ki-D-Talbot.github.io/main/models/show.stl">
   </script>
 </div>
-<figcaption>Figure 8: Interactive 3D model of the abandoned design</figcaption>
+<figcaption>Interactive 3D model of the abandoned design</figcaption>
 

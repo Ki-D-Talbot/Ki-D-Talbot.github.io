@@ -11,7 +11,7 @@ order: 8
   <img src="/images/orca.png" alt="cad sketch" width="500">
   <figcaption>Slicer setting showing print time and cost</figcaption>
 </figure>
-
+<br>
 Once the parts were printed, we started to assemble them, 1.75mm filament was used as a hinge. the hardware was added and we could do our first test. 
 
 Another quick video of prototypes
@@ -19,6 +19,8 @@ Another quick video of prototypes
   <iframe width="700" height="400" src="https://www.youtube.com/embed/ZtRWC7dh7FQ" frameborder="0" allowfullscreen></iframe>
   <figcaption>Demonstration of the prototype</figcaption>
 </figure>
+<br>
+
 You can see proof the mechanism works, as well as the servo encoder feedback loop.
 
 <figure>
@@ -31,8 +33,37 @@ You can see proof the mechanism works, as well as the servo encoder feedback loo
 </figure>
 <figure>
   <img src="/images/guts3.jpg" alt="cad sketch" width="500">
-  <figcaption>Some gut shots</figcaption>
+  <figcaption></figcaption>
 </figure>
+<figure>
+  <img src="/images/guts3.jpg" alt="cad sketch" width="500">
+  <figcaption></figcaption>
+</figure>
+<figure>
+  <img src="/images/table.jpg" alt="cad sketch" width="500">
+  <figcaption></figcaption>
+</figure>
+<figure>
+  <img src="/images/hold1.jpg" alt="cad sketch" width="500">
+  <figcaption></figcaption>
+</figure>
+<figure>
+  <img src="/images/hold2.jpg" alt="cad sketch" width="500">
+  <figcaption></figcaption>
+</figure>
+<figure>
+  <img src="/images/hold3.jpg" alt="cad sketch" width="500">
+  <figcaption></figcaption>
+</figure>
+<figure>
+  <img src="/images/hold4.jpg" alt="cad sketch" width="500">
+  <figcaption></figcaption>
+</figure>
+<figure>
+  <img src="/images/hold5.jpg" alt="cad sketch" width="500">
+  <figcaption>The artifact</figcaption>
+</figure>
+<br>
 
 ### Bill of Materials (BOM)
 
@@ -56,5 +87,5 @@ The code was written in MicroPython and uploaded to the Pico. The switches on th
   <a href="https://github.com/Ki-D-Talbot/manta_ray" class="button" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">View on GitHub</a>
 </div>
 
-it was time to think about the covering...
+The aesthetic covering...
 

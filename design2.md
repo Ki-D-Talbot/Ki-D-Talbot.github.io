@@ -7,7 +7,6 @@ order: 7
 
 ## Design
 
-
 ### Inspiration
 The next source of inspiration came from woodworking and is knows as kerf bent or lattice hinges. Michael from the excellent channel 'Teaching Tech' has a great video on this, check it out [here](https://www.youtube.com/watch?v=8WEqKYa6XRk&t)
 
@@ -15,7 +14,7 @@ We started a fresh cad project and imported a top down view of a manta ray, spli
 
 <figure>
   <img src="/images/raysketch.png" alt="cad sketch" width="500">
-    <figcaption>Figure 8: Sketch of the manta ray wing</figcaption>
+    <figcaption>Sketch of the manta ray wing</figcaption>
 </figure>
 <br>
 
@@ -25,15 +24,15 @@ This did however create a fairly complicated first layer that required excellent
 
 <figure>
   <img src="/images/hoop.png" alt="cad sketch" width="500">
-    <figcaption>Figure 9: Sketch of the hoop design</figcaption>
+    <figcaption>Sketch of the hoop design</figcaption>
 </figure>
 <br>
 
-we added a hinge to marry the parts and we started planning out the mechanism. The idea was to use a servo motor to pull the wire, one for each joint. We opted for servo motors because of the high degree of control and low price. We opted for 360 servos because we were unsure if we needed more rotation than they could offer even with a different gear ratios. 
+We added a hinge to marry the parts and we started planning out the mechanism. The idea was to use a servo motor to pull the wire, one for each joint. We opted for servo motors because of the high degree of control and low price. We opted for 360 servos because we were unsure if we needed more rotation than they could offer even with a different gear ratios. 
 
 <figure>
   <img src="/images/servo.png" alt="cad sketch" width="500">
-    <figcaption>Figure 10: Sketch of the servo motor being incorporated</figcaption>
+    <figcaption>Sketch of the servo motor being incorporated</figcaption>
 </figure>
 <br>
 
@@ -41,24 +40,24 @@ The idea was to attach a cog to the servo and one connected to an axle that goes
 
 <figure>
   <img src="/images/axle.png" alt="cad sketch" width="500">
-    <figcaption>Figure 11: Sketch of the axle design</figcaption> 
+    <figcaption>Sketch of the axle design</figcaption> 
 </figure>
 <br>
 
-because we have no positional feedback on 360 motors we used a rotary encoder to measure the number of degrees each servo had travelled. These were also positioned in CAD. some of the clearances were left intentionally oversized so shims can be printed later to fine tune the gap without reprinting the whole thing. 
+Because we have no positional feedback on 360 motors we used a rotary encoder to measure the number of degrees each servo had travelled. These were also positioned in CAD. some of the clearances were left intentionally oversized so shims can be printed later to fine tune the gap without reprinting the whole thing. 
 
 <figure>
   <img src="/images/encoder.png" alt="cad sketch" width="500">
-    <figcaption>Figure 12: Sketch of the encoder design</figcaption>   
+    <figcaption>Sketch of the encoder design</figcaption>   
 </figure>
 <br>
 
 <figure>
   <img src="/images/encoder2.png" alt="cad sketch" width="500">
-    <figcaption>Figure 13: Sketch of the encoder integration</figcaption>
+    <figcaption>Sketch of the encoder integration</figcaption>
 </figure>
 
-Its getting tight in there!
+It's getting tight in there!
 
 <br>
 
@@ -70,14 +69,14 @@ In keeping with the original design we used 3d printed fasteners for the case, t
   <script src="https://embed.github.com/view/3d/Ki-D-Talbot/Ki-D-Talbot.github.io/main/models/bolt.stl">
     </script>
 </div>
-<figcaption>Figure 14: Interactive 3D model of the bolt design</figcaption>
+<figcaption>Interactive 3D model of the bolt design</figcaption>
 <br>
 
 Here is the final assembly.
 
 <figure>
     <iframe width="700" height="400" src="https://www.youtube.com/embed/8EOm7ioHu7w" frameborder="0" allowfullscreen></iframe>
-    <figcaption>Video 15: Final assembly of the design</figcaption>
+    <figcaption>Final assembly of the design</figcaption>
 </figure>
 <br>
 
@@ -85,5 +84,5 @@ Here is the final assembly.
   <script src="https://embed.github.com/view/3d/Ki-D-Talbot/Ki-D-Talbot.github.io/main/models/whole.stl">
     </script>
 </div>
-<figcaption>Figure 16: Interactive 3D model of the final design
+<figcaption>Interactive 3D model of the final design
 <br>
