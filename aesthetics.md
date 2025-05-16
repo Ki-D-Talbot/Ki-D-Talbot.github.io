@@ -15,7 +15,7 @@ A skin was designed in CAD
 <div class="col-12">
   <h3>3D Model Exploration</h3>
   <div class="stl-viewer-container">
-    <iframe src="https://ki-d-talbot.github.io/models/skin.stl" width="640" height="480" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    <iframe src="https://github.com/Ki-D-Talbot/Ki-D-Talbot.github.io/blob/main/models/skin.stl" width="640" height="480" frameborder="0" scrolling="no" allowfullscreen></iframe>
   </div>
   <p>Skin for one of the wings.</p>
 </div>
