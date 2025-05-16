@@ -59,7 +59,7 @@ To get the texture on to the skin model we tried to use a haptic pen by [3D Syst
 
 <figure>
   <img src="/images/haptic.jpg" alt="haptic" width="500">
-  <figcaption>skin with texture from skin</figcaption>
+  <figcaption>skin with texture from fish</figcaption>
 </figure>
 <figure>
   <img src="/images/haptic_pen.jpg" alt="haptic" width="500">
@@ -74,3 +74,12 @@ As you can see this left artifacts on the model. We Also attempted to use Blende
   <figcaption>Skin depth sample</figcaption>
 </figure>
 
+Unfortunately this was it for the for aesthetic covering, and the silicone skin was never made. however the next step was to bring the textured model back into CAD and and use it to make a mould. 
+This would have been printed in resin to retain the high detail of the scan. 
+
+<figure>
+  <img src="/images/mould.png" alt="haptic" width="500">
+  <figcaption>Skin mould</figcaption>
+</figure>
+
+You can see from this section view the gap between the mould. 
