@@ -44,10 +44,16 @@ A [HandySCAN Black Elite](https://www.creaform3d.com/en/products/portable-3d-sca
 <figure>
   <img src="/images/prescan.jpg" alt="research" width="500">
   <figcaption>Ready to be scanned</figcaption>
-
 </figure>
+
 <iframe width="700" height="400" src="https://www.youtube.com/embed/sBRVTfdFDUg" frameborder="0" allowfullscreen></iframe>
 <figcaption>Scanning the plaice</figcaption>
 
 To get the texture on to the skin model we tried to use a haptic pen by [3D Systems](https://www.3dsystems.com/haptics) and a Program called Mesh Mixer. 
 
+<figure>
+  <img src="/images/haptic.jpg" alt="haptic" width="500">
+  <figcaption>Haptic pen</figcaption>
+</figure>
+
+As you can see
