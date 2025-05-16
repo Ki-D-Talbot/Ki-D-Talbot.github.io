@@ -21,4 +21,17 @@ Another quick video of prototypes
 
 You can see proof the mechanism works, as well as the servo encoder feedback loop.
 
+### Bill of Materials (BOM)
+
+| Item | Quantity | Notes |
+|------|----------|-------|
+| 360° Continuous Rotation Servos | 4 | For driving the gear mechanisms |
+| KY-040 Rotary Encoders | 4 | For position feedback |
+| Raspberry Pi Pico | 1 | Main microcontroller |
+| PCA9685 Servo Driver | 1 | For controlling multiple servos |
+| PLA Filament | ~250g | For 3D printed components |
+| Fishing Line | ~2m | Used as tendons for the mechanism |
+| Dupont Connectors | ~20 | For electrical connections |
+
+
 it was time to think about the covering
