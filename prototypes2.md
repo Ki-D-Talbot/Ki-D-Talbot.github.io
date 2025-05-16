@@ -15,7 +15,7 @@ it was time to think about the covering
 
 
 <div class="stl-viewer-container">
-  <script src="https://embed.github.com/view/3d/Ki-D-Talbot/Ki-D-Talbot.github.io/main/models/whole.stl">
+  <script src="https://embed.github.com/view/3d/Ki-D-Talbot/Ki-D-Talbot.github.io/main/models/whole2.stl">
   </script>
 </div>
 <figcaption>Figure 1: Interactive 3D model of the final prototype</figcaption>
