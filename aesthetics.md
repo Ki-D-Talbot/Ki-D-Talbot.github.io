@@ -15,8 +15,7 @@ A skin was designed in CAD
 <div class="col-12">
   <h3>3D Model Exploration</h3>
   <div class="stl-viewer-container">
-    <script src="https://embed.github.com/view/3d/Ki-D-Talbot/Ki-D-Talbot.github.io/main/models/skin.stl">
-    </script>
+    <iframe src="https://ki-d-talbot.github.io/models/skin.stl" width="640" height="480" frameborder="0" scrolling="no" allowfullscreen></iframe>
   </div>
   <p>Skin for one of the wings.</p>
 </div>
@@ -56,4 +55,6 @@ To get the texture on to the skin model we tried to use a haptic pen by [3D Syst
   <figcaption>Haptic pen</figcaption>
 </figure>
 
-As you can see
+
+
+As you can see this left artifacts on the model
