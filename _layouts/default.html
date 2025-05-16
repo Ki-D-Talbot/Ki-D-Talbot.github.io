@@ -60,23 +60,6 @@
           </div>
         </div>
 
-        <!-- Mobile header section -->
-        <div id="mobile-header">
-          <div class="mobile-dropdown">
-            <ul>
-              <!-- Remove or modify this section if it's adding a duplicate Home link -->
-              {% if site.header_pages %}
-                {% for path in site.header_pages %}
-                  {% assign my_page = site.pages | where: "path", path | first %}
-                  {% if my_page.title and my_page.hidden != true %}
-                    <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title }}</a></li>
-                  {% endif %}
-                {% endfor %}
-              {% endif %}
-            </ul>
-          </div>
-        </div>
-
         <!-- Header -->
             <div id="header">
 
@@ -140,7 +123,7 @@
 
                 <!-- Copyright -->
                     <ul class="copyright">
-                        <li>&copy; v1.31 All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        <li>&copy; v1.30 All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
                     </ul>
 
             </div>
