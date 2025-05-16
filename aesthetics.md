@@ -24,6 +24,8 @@ A skin was designed in CAD
 
 The shape was made in cad although Blender would have been a better choice for more organic modelling like this.
 
+We took a trip to look at textures of fish and tired to find other scaleless fish to get a better idea of the skin texture.
+
 <figure>
   <img src="/images/aquarium1.jpg" alt="research" width="500">
   <figcaption>Field research</figcaption>
@@ -49,13 +51,24 @@ A [HandySCAN Black Elite](https://www.creaform3d.com/en/products/portable-3d-sca
 <iframe width="700" height="400" src="https://www.youtube.com/embed/sBRVTfdFDUg" frameborder="0" allowfullscreen></iframe>
 <figcaption>Scanning the plaice</figcaption>
 
+<figure>
+  <img src="/images/fish_extracted.jpg" alt="research" width="500">
+  <figcaption>Scanned plaice</figcaption>
+
 To get the texture on to the skin model we tried to use a haptic pen by [3D Systems](https://www.3dsystems.com/haptics) and a Program called Mesh Mixer. 
 
 <figure>
   <img src="/images/haptic.jpg" alt="haptic" width="500">
+  <figcaption>skin with texture from skin</figcaption>
+</figure>
+<figure>
+  <img src="/images/haptic_pen.jpg" alt="haptic" width="500">
   <figcaption>Haptic pen</figcaption>
 </figure>
 
 
+As you can see this left artifacts on the model. We Also attempted to use Blender to map the texture using UV mapping.
 
-As you can see this left artifacts on the model. We wanted to 
+<figure>
+  <img src="/images/depth.png" alt="haptic" width="500">
+  <figcaption>Skin depth sample</figcaption>
