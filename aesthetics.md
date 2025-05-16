@@ -82,4 +82,4 @@ This would have been printed in resin to retain the high detail of the scan.
   <figcaption>Skin mould</figcaption>
 </figure>
 
-You can see from this section view the gap between the mould. 
+You can see from this section view the gap for the silicone between the forms. 
