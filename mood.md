@@ -24,7 +24,28 @@ Get a feel for the vibes.
     </article>
     <article class="item">
       <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/2.jpg" alt="" /></a>
-      <header><h3>Photo by <a href="https://unsplash.com/@seefromthesky?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ishan @seefromthesky</a> on <a href="https://unsplash.com/photos/black-and-white-stingray-3rSr37wFxKQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      <header><h3>Photo by <a href="https://unsplash.com/@nicolasweldingh?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nicolas Weldingh</a> on <a href="https://unsplash.com/photos/blue-and-white-shark-underwater-Z4RUPM2Gdso?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      </h3></header>
+    </article>
+  </div>
+    <div class="col-4 col-12-mobile">
+    <article class="item">
+      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/3.jpg" alt="" /></a>
+      <header><h3>Photo by <a href="https://unsplash.com/@divenau?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">naushad mohamed</a> on <a href="https://unsplash.com/photos/black-and-white-whale-under-water-epurOEDnOnc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      </h3></header>
+    </article>
+  </div>
+    <div class="col-4 col-12-mobile">
+    <article class="item">
+      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/5.jpg" alt="" /></a>
+      <header><h3>Photo by <a href="https://unsplash.com/@birdeye?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Adam Azim</a> on <a href="https://unsplash.com/photos/a-group-of-small-boats-floating-on-top-of-a-body-of-water-D7a5La2LKgg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      </h3></header>
+    </article>
+  </div>
+    <div class="col-4 col-12-mobile">
+    <article class="item">
+      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/6.jpg" alt="" /></a>
+      <header><h3>Photo by <a href="https://unsplash.com/@seefromthesky?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ishan @seefromthesky</a> on <a href="https://unsplash.com/photos/a-man-standing-on-a-surfboard-in-the-middle-of-the-ocean-AVxsqpPOJJg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
       </h3></header>
     </article>
   </div>
