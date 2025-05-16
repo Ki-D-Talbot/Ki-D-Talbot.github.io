@@ -11,16 +11,16 @@ the plan was to make a silicone 'glove' that the wing could slide into, one over
 
 A skin was designed in CAD
 
-  <!-- Add STL model viewer -->
-  <div class="col-12">
-    <h3>3D Model Exploration</h3>
-    <div class="stl-viewer-container">
-      <script src="https://embed.github.com/view/3d/Ki-D-Talbot/Ki-D-Talbot.github.io/main/models/skincovering.stl">
-      </script>
-    </div>
-    <p>Covering for one of the wings.</p>
+<!-- Add STL model viewer -->
+<div class="col-12">
+  <h3>3D Model Exploration</h3>
+  <div class="stl-viewer-container">
+    <script src="https://embed.github.com/view/3d/Ki-D-Talbot/Ki-D-Talbot.github.io/main/models/skincovering.stl">
+    </script>
   </div>
+  <p>Covering for one of the wings.</p>
 </div>
+
 
 The shape was made in cad although Blender would have been a better choice for more organic modelling like this.
 
@@ -58,4 +58,4 @@ To get the texture on to the skin model we tried to use a haptic pen by [3D Syst
 
 
 
-As you can see this left artifacts on the model
+As you can see this left artifacts on the model. We wanted to 
