@@ -9,7 +9,7 @@ order: 8
 
 <figure>
   <img src="/images/orca.png" alt="cad sketch" width="100%" style="max-width: 1000px;">
-  <figcaption>Slicer setting showing print time and cost</figcaption>
+  <figcaption>Slicer view showing main parts</figcaption>
 </figure>
 <br>
 Once the parts were printed, we started to assemble them, 1.75mm filament was used as a hinge. the hardware was added and we could do our first test. 
