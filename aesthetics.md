@@ -15,7 +15,7 @@ A skin was designed in CAD
   <div class="col-12">
     <h3>3D Model Exploration</h3>
     <div class="stl-viewer-container">
-      <script src="https://embed.github.com/view/3d/Ki-D-Talbot/Ki-D-Talbot.github.io/main/models/skin.stl">
+      <script src="https://embed.github.com/view/3d/Ki-D-Talbot/Ki-D-Talbot.github.io/main/models/skincovering.stl">
       </script>
     </div>
     <p>Covering for one of the wings.</p>
