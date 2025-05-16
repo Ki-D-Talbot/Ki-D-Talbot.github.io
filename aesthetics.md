@@ -70,7 +70,7 @@ To get the texture on to the skin model we tried to use a haptic pen by [3D Syst
 As you can see this left artifacts on the model. We Also attempted to use Blender to map the texture using depth mapping.
 
 <figure>
-  <img src="/images/depth.png" alt="haptic" width="500">
+  <img src="/images/depth.jpg" alt="haptic" width="500">
   <figcaption>Skin depth sample</figcaption>
 </figure>
 
