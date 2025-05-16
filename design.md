@@ -5,7 +5,7 @@ permalink: /design/
 order: 5
 ---
 
-# Design Development
+## Design Development
 
 We started by thinking of the articulated part of the project.
 

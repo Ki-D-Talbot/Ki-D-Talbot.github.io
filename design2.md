@@ -33,7 +33,7 @@ we added a hinge to marry the parts and we started planning out the mechanism. T
 
 <figure>
   <img src="/images/servo.png" alt="cad sketch" width="500">
-    <figcaption>Figure 10: Sketch of the servo motor</figcaption>
+    <figcaption>Figure 10: Sketch of the servo motor being incorporated</figcaption>
 </figure>
 <br>
 
@@ -79,4 +79,11 @@ Here is the final assembly.
     <iframe width="700" height="400" src="https://www.youtube.com/embed/8EOm7ioHu7w" frameborder="0" allowfullscreen></iframe>
     <figcaption>Video 15: Final assembly of the design</figcaption>
 </figure>
+<br>
+
+<div class="stl-viewer-container">
+  <script src="https://embed.github.com/view/3d/Ki-D-Talbot/Ki-D-Talbot.github.io/main/models/whole.stl">
+    </script>
+</div>
+<figcaption>Figure 16: Interactive 3D model of the final design
 <br>
