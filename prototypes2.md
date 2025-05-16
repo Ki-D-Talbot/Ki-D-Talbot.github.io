@@ -58,6 +58,3 @@ The code was written in MicroPython and uploaded to the Pico. The switches on th
 
 it was time to think about the covering...
 
-<div style="text-align: right; margin-top: 30px; margin-bottom: 30px;">
-  <a href="/tech/" style="padding: 10px 20px; background-color: #4C5C68; color: white; text-decoration: none; border-radius: 5px;">Next: Technologies →</a>
-</div>
