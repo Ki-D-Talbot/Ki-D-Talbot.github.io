@@ -63,11 +63,7 @@
                                     {% unless p.path contains '_drafts' or p.hidden == true or p.title == null %}
                                         <li>
                                             <a href="{{ site.baseurl }}{{ p.url }}" id="{{ p.title | slugify }}-link">
-                                                {% if p.title contains 'Compliant' %}
-                                                    <span class="icon solid fa-cogs">{{ p.title }}</span>
-                                                {% else %}
-                                                    <span class="icon solid fa-file">{{ p.title }}</span>
-                                                {% endif %}
+                                                <span class="icon solid fa-circle">{{ p.title }}</span>
                                             </a>
                                         </li>
                                     {% endunless %}
@@ -110,7 +106,7 @@
 
                 <!-- Copyright -->
                     <ul class="copyright">
-                        <li>&copy; v1.29 All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        <li>&copy; v1.30 All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
                     </ul>
 
             </div>
