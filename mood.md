@@ -49,6 +49,13 @@ Get a feel for the vibes.
       </h3></header>
     </article>
   </div>
+    <div class="col-4 col-12-mobile">
+    <article class="item">
+      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/7.jpg" alt="" /></a>
+      <header><h3>Photo by <a href="https://unsplash.com/@nottpeera?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nott Peera</a> on <a href="https://unsplash.com/photos/a-manta-ray-swimming-in-the-ocean-K4HE4bCbKBI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+      </h3></header>
+    </article>
+  </div>
   <div class="col-4 col-12-mobile">
     <article class="item">
       <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/4.jpg" alt="" /></a>
