@@ -18,7 +18,7 @@ Another quick video of prototypes
 <figure>
   <iframe width="700" height="400" src="https://www.youtube.com/embed/ZtRWC7dh7FQ" frameborder="0" allowfullscreen></iframe>
   <figcaption>Video 1: Demonstration of the prototype</figcaption>
-
+</figure>
 You can see proof the mechanism works, as well as the servo encoder feedback loop.
 
 ### Bill of Materials (BOM)
