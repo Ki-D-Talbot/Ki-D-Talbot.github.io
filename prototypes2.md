@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Prototypes2"
+title: "Mechanical Prototyping & Control System"
 permalink: /prototpesy2/
 order: 8
 ---
