@@ -38,7 +38,6 @@
           <div class="mobile-menu-toggle">Menu</div>
           <div class="mobile-dropdown">
             <ul>
-              <li><a href="{{ site.baseurl }}/">Home</a></li>
               {% assign mobile_pages = site.pages | where: "layout", "page" | sort: "order" %}
               {% for p in mobile_pages %}
                 {% unless p.path contains '_drafts' or p.hidden == true %}
