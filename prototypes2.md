@@ -33,5 +33,14 @@ You can see proof the mechanism works, as well as the servo encoder feedback loo
 | Fishing Line | ~2m | Used as tendons for the mechanism |
 | Dupont Connectors | ~20 | For electrical connections |
 
+### Code
+
+The code was written in MicroPython and uploaded to the Pico. The switches on the encoders were used to set the maximum distance the servo could turn. It used PID control to govern the speed and position of the servos. 
+
+<div style="margin: 30px 0; padding: 20px; background-color: #f8f9fa; border-radius: 5px; border-left: 5px solid #007bff;">
+  <h4><i class="icon brands fa-github"></i> GitHub Repository</h4>
+  <p>View the full source code, including documentation and setup instructions:</p>
+  <a href="https://github.com/Ki-D-Talbot/manta_ray" class="button" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">View on GitHub</a>
+</div>
 
 it was time to think about the covering
