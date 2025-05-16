@@ -18,12 +18,12 @@ Get a feel for the vibes.
 <div class="row">
   <div class="col-4 col-12-mobile">
     <article class="item">
-      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/1.jpeg" alt="" /></a>
+      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/1.jpg" alt="" /></a>
       <header><h3>Photo by <a href="https://unsplash.com/@sebaspenalambarri?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sebastian Pena Lambarri</a> on <a href="https://unsplash.com/photos/grey-and-black-stingray-in-underwater-photography-F54xLcv9wQ0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
       </h3></header>
     </article>
     <article class="item">
-      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/2.jpeg" alt="" /></a>
+      <a href="#" class="image fit"><img src="{{ site.baseurl }}/images/2.jpg" alt="" /></a>
       <header><h3>Photo by <a href="https://unsplash.com/@seefromthesky?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ishan @seefromthesky</a> on <a href="https://unsplash.com/photos/black-and-white-stingray-3rSr37wFxKQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
       </h3></header>
     </article>
