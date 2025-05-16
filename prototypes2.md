@@ -17,9 +17,22 @@ once the parts were printed, we started to assemble them, 1.75mm filament was us
 Another quick video of prototypes
 <figure>
   <iframe width="700" height="400" src="https://www.youtube.com/embed/ZtRWC7dh7FQ" frameborder="0" allowfullscreen></iframe>
-  <figcaption>Video 1: Demonstration of the prototype</figcaption>
+  <figcaption>Demonstration of the prototype</figcaption>
 </figure>
 You can see proof the mechanism works, as well as the servo encoder feedback loop.
+
+<figure>
+  <img src="/images/guts1.jpg" alt="cad sketch" width="500">
+  <figcaption></figcaption>
+</figure>
+<figure>
+  <img src="/images/guts2.jpg" alt="cad sketch" width="500">
+  <figcaption></figcaption>
+</figure>
+<figure>
+  <img src="/images/guts3.jpg" alt="cad sketch" width="500">
+  <figcaption>Some gut shots</figcaption>
+</figure>
 
 ### Bill of Materials (BOM)
 
